@@ -1,2 +1,0 @@
-I. Frontend web development.
-[Day 1] - made index.html
