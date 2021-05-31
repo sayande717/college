@@ -195,9 +195,9 @@ else if((b1=="X" || b1=='0') &&
 }
 else{
   if(flag==1){
-  document.getElementById('print').innerHTML="Player X turn";
+  document.getElementById('print').innerHTML="Player <b>X</b>'s turn";
 }else{
-  document.getElementById('print').innerHTML="Player 0 turn";
+  document.getElementById('print').innerHTML="Player <b>0</b>'s turn";
 }
 }
 }

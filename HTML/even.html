@@ -1,0 +1,32 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript">
+        function check()
+        {
+            var n1=parseInt(document.def.ni.value);
+            var n2=parseInt(document.def.nf.value);
+            document.write("<font size='6px' color='blue'>Result:</font><br><br>");
+            document.write("<font size='5px'>Even numbers: ");
+            for(i=n1;i<=n2;i++)
+            {
+                if(i%2==0)
+                {
+                    document.write(i+" ");
+                }
+            }
+            document.write("</font>");
+        }
+        </script>
+        <title>Odd-even</title>
+    </head>
+    <body>
+        <font size='6px' color='blue'>(Enter the range)</font><br><br>
+        <form name="def">
+            <font size='5px'>Enter the starting number:<input type="number" id="ni"><br>
+            Enter the ending number:<input type="number" id="nf"><br>
+            <input type="button" value="Submit." onclick="check()">
+        </form>
+    </font>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript">
+        function checkpass()
+        {
+            var n1=document.def.p1.value;
+            var n2=document.def.p2.value;
+                if(n1==n2)
+                {
+                    document.write("<font size='5px' color='green'>Passwords match!</font><br><font size='5px' color='blue'>Here's a trophy for you > 🏆</font>");
+                }
+                else
+                {
+                    document.write("<font size='5px' color='red'>Passwords don't match. 😒</font><br><font size='5px' color='blue'>Refresh & Repeat.</font>");
+                }
+        }
+        </script>
+        <title>Password check</title>
+    </head>
+    <body>
+        <font size='6px' color='blue'>Here goes nothing.</font><br><br>
+        <form name="def">
+            <font size='5px'>Enter password for no reason:<input type="password" id="p1"><br>
+            Enter the same password again:<input type="password" id="p2"><br>
+            <input type="button" value="Check" onclick="checkpass()">
+        </font>
+        </form>
+    </body>
+</html>
