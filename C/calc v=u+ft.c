@@ -21,7 +21,7 @@ void main()
     {
         printf("Enter values of v,f,t\n");
         scanf("%f%f%f",&v,&f,&t);
-        u=v-(f*t);d
+        u=v-(f*t);
         printf("u = %f",u);
     }
     else if (n=='f'||n=='F')
