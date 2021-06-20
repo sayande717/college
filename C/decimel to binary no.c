@@ -14,3 +14,4 @@ printf("Binary:");
 for(i=(i-1);i>=0;i--)
 printf("%d",a[i]);
 }
+.
