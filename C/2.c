@@ -1,4 +1,4 @@
-//Program to calculate V=U+FT when any one of the parameters are given.
+//Program to calculate V=U+FT when any one of the parameters missing while the rest are given.
 #include <stdio.h>
 void main()
 {
