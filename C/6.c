@@ -8,6 +8,7 @@ scanf("%d",&n);
 for(i=1;i<=n;i++)
 {
 printf("%d ",ti);
+printf("\n");
 s=ti+tf;
 ti=tf;
 tf=s;
