@@ -15,5 +15,6 @@ if(m[i]<min)min=m[i];
 }
 printf("Maximum marks:%d",max);
 printf("\nMinimum marks:%d",min);
+printf("\n");
 return 0;
 }
