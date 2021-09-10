@@ -35,3 +35,7 @@ b. tic.css.
 c. tic.js.
 3. checkpass.html - Checks whether 2 entered passwords are the same.
 4. even.html - Checks whether the number entered is even.
+
+[Java]
+1.java - Print 'Hello World'.
+2.java - Calculate the area & perimeter of a circle.
