@@ -39,3 +39,4 @@ c. tic.js.
 [Java]
 1.java - Print 'Hello World'.
 2.java - Calculate the area & perimeter of a circle.
+3.java - Calculate the sum of 2 numbers.
