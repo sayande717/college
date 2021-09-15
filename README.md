@@ -20,6 +20,8 @@ Note - If a! + b! + c! = abc then abc is a Peterson number. ! = factorial of a n
 Note - A number is a prime number if it is only divisible by 1 & itself.
 16.c - Checks whether a number entered is a prime number. The number must be >0.
 17.c - Prints the sum of digits in a number.
+18.c - Insert an element at a given location in an array.
+19.c - Delete an element from a given location in an array.
 
 [HTML]
 1. Personal Profile - A personal profile page.
@@ -40,3 +42,10 @@ c. tic.js.
 1.java - Print 'Hello World'.
 2.java - Calculate the area & perimeter of a circle.
 3.java - Calculate the sum of 2 numbers.
+4.java - Find the average of 4 decimel numbers.
+5.java - Find the hypotenuse of a triangle.
+6.java - Print the substring of a string. Here, the last 10 characters of the string are printed.
+7.java - Check if a given number is a prime number or not.
+8.java - Print all numbers between 18 and 100 that are divisible by 17.
+9.java - Print all factors of a number.
+10.java - Print all prime numbers between 100 and 200.
