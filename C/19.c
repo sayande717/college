@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    int n, a[100], i, position, m;
+    int n, a[100], i, position;
     //Take array elements as input from the user.
     printf("Enter the number of elements in the array:");
     scanf("%d", &n);
