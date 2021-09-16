@@ -49,3 +49,5 @@ c. tic.js.
 8.java - Print all numbers between 18 and 100 that are divisible by 17.
 9.java - Print all factors of a number.
 10.java - Print all prime numbers between 100 and 200.
+11.java - Print sum of two numbers, input will be given by the user. Use BufferedReader.
+12.java - Take your name as input from the user, use BufferedReader.
