@@ -12,5 +12,6 @@ class primeno {
         if (counter == 2)
             System.out.print(i + " ");
         }
+        System.out.println("");
     }
 }
