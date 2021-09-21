@@ -1,7 +1,7 @@
 Program description - 
 [C] - 
 1.c - Prints all 3 digit Armstrong numbers.
-Note - If a^3 + b^3 + c^3 = abc then abc is an Armstrong number.
+Note - If a^3 + b^3 + c^3 = abc (where 3 is the number of digits of the number 'abc') then abc is an Armstrong number.
 2.c - Calculates v=u+ft when any one of the parameters is missing while the rest are given.
 3.c - Convert a decimel number to it's binary equivalent.
 4.c - Find out the factorial of a number.
@@ -51,3 +51,9 @@ c. tic.js.
 10.java - Print all prime numbers between 100 and 200.
 11.java - Print sum of two numbers, input will be given by the user. Use BufferedReader.
 12.java - Take your name as input from the user, use BufferedReader.
+13.java - Check if a number is a perfect number or not.
+If n = Sum of factors of n, then 'n' is a perfect number. Eg. 28=1+2+4+7+14.
+14.java - Check if a number is a number is an armstrong number or not. (check 1.c for info)
+15.java - Write a program that includes two data members, the length and width of a room. Display the area of the room.
+16.java - Define a class 'item' that includes data members item number, code, price of the item. Write a method that initialises these data members and display the values.
+17.java - Define a class which includes Name, class, marks of students. Write a program that displays name, roll and average marks of the student.
