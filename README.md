@@ -59,3 +59,5 @@ If n = Sum of factors of n, then 'n' is a perfect number. Eg. 28=1+2+4+7+14.
 17.java - Define a class which includes Name, class, marks of students. Write a program that displays name, roll and average marks of the student.
 18.java - (Using Inheritence & Constructor) Find the area & volume of two rooms.
 19.java - Define a class 'Shape' that initialises it's data members -  length & width. Another class 'Rectangle' is derived from the super  class 'Shape'. Write a program to display the area and perimeter of two 'rectangle' objects.
+20.java - Define a class 'Triangle' with data members 'base' and 'height'. Write a program to display the area of the triangle using 'method overloading'.
+21.java - Program to demonstrate method overriding.
