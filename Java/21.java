@@ -5,7 +5,7 @@ class super
     {
         this.x=x;
     }
-    Void display()
+    void display()
     {
         System.out.println("The value of x is"+x);
     }
