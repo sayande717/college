@@ -22,6 +22,8 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 17.c - Prints the sum of digits in a number.
 18.c - Insert an element at a given location in an array.
 19.c - Delete an element from a given location in an array.
+20.c - Program to implement Stack using arrays.
+21.c - Program to implement Stack using structures.
 
 [HTML]
 1. Personal Profile - A personal profile page.
