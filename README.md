@@ -25,6 +25,8 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 20.c - Program to implement Stack using arrays.
 21.c - Program to implement Stack using structures.
 22.c - Write a program in C to perform circular queue implementation using array.
+23.c - Write a program in C to search an element in an array using Linear search algorithm.
+24.c - Write a program in C to search an element in an array using Binary search algorithm.
 
 [HTML]
 1. Personal Profile - A personal profile page.
