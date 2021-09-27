@@ -24,6 +24,7 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 19.c - Delete an element from a given location in an array.
 20.c - Program to implement Stack using arrays.
 21.c - Program to implement Stack using structures.
+22.c - Write a program in C to perform circular queue implementation using array.
 
 [HTML]
 1. Personal Profile - A personal profile page.
@@ -39,6 +40,7 @@ b. tic.css.
 c. tic.js.
 3. checkpass.html - Checks whether 2 entered passwords are the same.
 4. even.html - Checks whether the number entered is even.
+
 
 [Java]
 1.java - Print 'Hello World'.
