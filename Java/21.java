@@ -18,7 +18,7 @@ sub(int x, int y)
 super(x);
 this.y=y;
 }
-
+}
     void display() 
     {
         System.out.println("The value of x " + x);

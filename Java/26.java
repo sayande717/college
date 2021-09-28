@@ -1,0 +1,4 @@
+class wonderofobjects
+{
+    //Homework.
+}

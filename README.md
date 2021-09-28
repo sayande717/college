@@ -64,6 +64,14 @@ If n = Sum of factors of n, then 'n' is a perfect number. Eg. 28=1+2+4+7+14.
 16.java - Define a class 'item' that includes data members item number, code, price of the item. Write a method that initialises these data members and display the values.
 17.java - Define a class which includes Name, class, marks of students. Write a program that displays name, roll and average marks of the student.
 18.java - (Using Inheritence & Constructor) Find the area & volume of two rooms.
-19.java - Define a class 'Shape' that initialises it's data members -  length & width. Another class 'Rectangle' is derived from the super  class 'Shape'. Write a program to display the area and perimeter of two 'rectangle' objects. //Not done
+19.java - Define a class 'Shape' that initialises it's data members -  length & width. Another class 'Rectangle' is derived from the super  class 'Shape'. Write a program to display the area and perimeter of two 'rectangle' objects. //Not Done - Doubt
 20.java - Define a class 'Triangle' with data members 'base' and 'height'. Write a program to display the area of the triangle using 'method overloading'.
-21.java - Program to demonstrate method overriding.
+21.java - Program to demonstrate method overriding. //Not done - Doubt
+22.java - Write a program that declares a class name 'sphere'. It should have instance variables to record it's radius and coordinates (x,y,z) of it's centre. All instance variables should be of double data type. Use the 'new' operator to create the sphere object set and display it's instance variables. Use a. Default constructor & b. Argument constructor for the following program.
+23.java - Write a program to find the volume and surface area of a box. Use functions with return types to calculate the volume & surface area. Also use argument constructor. Given - a. Volume = (H*W*D) and b. Surface Area = 2*(W*H+H*D+W*D).
+24.java - Continuing from program 22.java, add two methods, findArea() and findVolume(). Display the surface area and the volume of sphere using argument constructor.
+25.java - Write a program which simply prints "wonder of objects", without using any print statement, complete methods or dot operator.
+26.java -  Write a program that implements method overloading. //Homework
+1st method -> should accept no argument and display "Welcome to Java" 1 time.
+2nd method -> should accept a string and display "Welcome to Polymorphism" 2 times.
+3rd method -> should accept a string and an integer and display "Welcome to Overloading" 3 times. Here, String - "Welcome to Overloading" and Integer - No. of times string will be printed ie 3.

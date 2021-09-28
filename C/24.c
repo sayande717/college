@@ -16,7 +16,7 @@ void main()
     firstindex = 0;
     lastindex = size - 1;
     middleindex = (firstindex + lastindex) / 2;
-    while ((firstindex <= lastindex) && (array[middleindex]!=searchnum))
+    while ((firstindex <= lastindex) && (array[middleindex] != searchnum))
     {
         if (searchnum < array[middleindex])
             lastindex = middleindex - 1;
@@ -26,9 +26,9 @@ void main()
             middleindex = (firstindex + lastindex) / 2;
         }
     }
-    if(array[middleindex]==searchnum)
-    printf("Element found at position %d.",(middleindex+1));
+    if (array[middleindex] == searchnum)
+        printf("Element found at position %d.", (middleindex + 1));
     else
-    printf("Element not found.");
+        printf("Element not found.");
     printf("\n");
 }
