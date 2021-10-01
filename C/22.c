@@ -60,12 +60,12 @@ void main()
     printf("Enter size of queue (size < 50) : ");
     scanf("%d", &size);
     printf("\nOptions : \n");
-    printf("\n1. Insert");
-    printf("\n2. Delete");
-    printf("\n3. Display queue");
+    printf("\n1. Insert.");
+    printf("\n2. Delete.");
+    printf("\n3. Display queue.");
     printf("\n4. Exit");
     while (choice != 4)
-    {
+    {   
         printf("\nEnter your choice : ");
         scanf("%d",&choice);
         switch(choice)
