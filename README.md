@@ -75,3 +75,6 @@ If n = Sum of factors of n, then 'n' is a perfect number. Eg. 28=1+2+4+7+14.
 1st method -> should accept no argument and display "Welcome to Java" 1 time.
 2nd method -> should accept a string and display "Welcome to Polymorphism" 2 times.
 3rd method -> should accept a string and an integer and display "Welcome to Overloading" 3 times. Here, String - "Welcome to Overloading" and Integer - No. of times string will be printed ie 3.
+27.java - Write a program to demonstrate 'Dynamic Method Dispatch'.
+28.java - Write a program on 'Interface'.
+29.java - Define an interface. This interface implements two classes, rectangle and circle. Calculate the area of rectangle and circle.
