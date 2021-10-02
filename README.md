@@ -1,5 +1,6 @@
-Program description - 
-[C] - 
+Program description -
+[C] -
+
 1.c - Prints all 3 digit Armstrong numbers.
 Note - If a^3 + b^3 + c^3 = abc (where 3 is the number of digits of the number 'abc') then abc is an Armstrong number.
 2.c - Calculates v=u+ft when any one of the parameters is missing while the rest are given.
@@ -29,6 +30,7 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 24.c - Write a program in C to search an element in an array using Binary search algorithm.
 
 [HTML]
+
 1. Personal Profile - A personal profile page.
 a. index.html - The homepage.
 b. bgwallpaper.jpg - The background wallpaper.
