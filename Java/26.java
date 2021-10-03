@@ -2,7 +2,7 @@ class wonderofobjects
 {
     void method1()
     {
-        System.out.println("Welcome to Java.");
+        System.out.println("Welcome to Java");
     }
     void method2(String s)
     {
