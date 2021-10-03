@@ -73,7 +73,7 @@ If n = Sum of factors of n, then 'n' is a perfect number. Eg. 28=1+2+4+7+14.
 23.java - Write a program to find the volume and surface area of a box. Use functions with return types to calculate the volume & surface area. Also use argument constructor. Given - a. Volume = (H*W*D) and b. Surface Area = 2*(W*H+H*D+W*D).
 24.java - Continuing from program 22.java, add two methods, findArea() and findVolume(). Display the surface area and the volume of sphere using argument constructor.
 25.java - Write a program which simply prints "wonder of objects", without using any print statement, complete methods or dot operator.
-26.java -  Write a program that implements method overloading. //Homework
+26.java -  Write a program that implements method overloading.
 1st method -> should accept no argument and display "Welcome to Java" 1 time.
 2nd method -> should accept a string and display "Welcome to Polymorphism" 2 times.
 3rd method -> should accept a string and an integer and display "Welcome to Overloading" 3 times. Here, String - "Welcome to Overloading" and Integer - No. of times string will be printed ie 3.
