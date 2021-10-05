@@ -1,8 +1,8 @@
 #include<stdio.h>
 int front=-1;
 int rear=-1;
-int array[50],size;
-void insert()
+int array[50];
+void insert(int n)
 {
     int data;
     if((front==rear + 1) || (front == 0 && rear == size - 1))
@@ -20,7 +20,7 @@ void insert()
         front=0;
     }
     rear=(rear + 1) %size;
-    array[rear]=data;
+    array[rear]=n;
     printf("\nElement succesfully inserted.");
 }
 void delete()
@@ -30,7 +30,6 @@ void delete()
         printf("\nQueue Underflow.");
         return ;
     }
-    printf("Element %d deleted from queue",array[front]);
     if(front==rear)
     {
         front=-1;
@@ -57,11 +56,9 @@ void display()
 void main()
 {
     int choice;
-    printf("Enter size of queue (size < 50) : ");
-    scanf("%d", &size);
     printf("\nOptions : \n");
-    printf("\n1. Insert.");
-    printf("\n2. Delete.");
+    printf("\n1. Insert Element.");
+    printf("\n2. Delete Element.");
     printf("\n3. Display queue.");
     printf("\n4. Exit");
     while (choice != 4)
@@ -71,7 +68,12 @@ void main()
         switch(choice)
         {
             case 1:
-                insert();
+                if (ptr->rear == size - 1)
+                    printf("\nQueue Overflow.");
+                else
+                    printf("\nEnter the element to be inserted : ");
+                scanf("%d", &element);
+                insert(element);
                 break;
             case 2:
                 delete();
