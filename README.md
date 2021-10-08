@@ -83,9 +83,9 @@ If n = Sum of factors of n, then 'n' is a perfect number. Eg. 28=1+2+4+7+14.
 28.java - Write a program on 'Interface'.
 29.java - Define an interface. This interface implements two classes, rectangle and circle. Calculate the area of rectangle and circle.
 30.java - Write a program that illustrates variable hiding. Class 'S' declares an instance variable 's' of integer type. Class 'T' declares an instance variable 'x' of String type, extending class 'S'. Instantiate both of these classes. Initialise and display the variable named 'x' with these objects.
-31.java - Write the following program - 
+31.java - Write the following program -  //Doubt
 Class 'S1' - declares an instance variable named 's1' of type integer.
 Class 'T1' - extends class 'S1' and declares an instance variable named 't1' of type integer.
-Class 'U1' - extende class 'T1' and declares an instance variable named 'u1' of type integer.
-These variables are initialised by the constructor for the class. If constructor displays a string, to indicate that it has started execution.
+Class 'U1' - extends class 'T1' and declares an instance variable named 'u1' of type integer.
+These variables are initialised by the constructor for the class. The constructor displays a string, to indicate that it has started execution.
 32.java - Program to demonstrate 'Dynamic Method Dispatch'.
