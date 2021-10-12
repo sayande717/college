@@ -14,7 +14,7 @@ void insert(int number)
 }
 void delete()
 {
-    printf("\nElement %d deleted sucesfully.",queue[front]);
+    printf("\nElement '%d' deleted sucesfully.",queue[front]);
     if(front==rear)
     front=rear=-1;
     else
