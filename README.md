@@ -30,6 +30,7 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 24.c - Write a program in C to search an element in an array using Binary search algorithm.
 25.c - Write a program in C to perform queue implementation using array.
 26.c - Write a program in C to perform queue implementation using structure.
+27.c - Write a program to create a linked list.
 
 [HTML]
 
@@ -89,3 +90,4 @@ Class 'T1' - extends class 'S1' and declares an instance variable named 't1' of 
 Class 'U1' - extends class 'T1' and declares an instance variable named 'u1' of type integer.
 These variables are initialised by the constructor for the class. The constructor displays a string, to indicate that it has started execution.
 32.java - Program to demonstrate 'Dynamic Method Dispatch'.
+33.java - Program to demonstrate an abstract class.
