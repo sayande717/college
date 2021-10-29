@@ -1,4 +1,4 @@
-Program description -
+Program Description -
 [C] -
 
 1.c - Prints all 3 digit Armstrong numbers.
@@ -48,7 +48,6 @@ c. tic.js.
 3. checkpass.html - Checks whether 2 entered passwords are the same.
 4. even.html - Checks whether the number entered is even.
 
-
 [Java]
 1.java - Print 'Hello World'.
 2.java - Calculate the area & perimeter of a circle.
@@ -84,10 +83,14 @@ If n = Sum of factors of n, then 'n' is a perfect number. Eg. 28=1+2+4+7+14.
 28.java - Write a program on 'Interface'.
 29.java - Define an interface. This interface implements two classes, rectangle and circle. Calculate the area of rectangle and circle.
 30.java - Write a program that illustrates variable hiding. Class 'S' declares an instance variable 's' of integer type. Class 'T' declares an instance variable 'x' of String type, extending class 'S'. Instantiate both of these classes. Initialise and display the variable named 'x' with these objects.
-31.java - Write the following program -  //Doubt
+31.java - Write the following program -
 Class 'S1' - declares an instance variable named 's1' of type integer.
 Class 'T1' - extends class 'S1' and declares an instance variable named 't1' of type integer.
 Class 'U1' - extends class 'T1' and declares an instance variable named 'u1' of type integer.
 These variables are initialised by the constructor for the class. The constructor displays a string, to indicate that it has started execution.
 32.java - Program to demonstrate 'Dynamic Method Dispatch'.
 33.java - Program to demonstrate an abstract class.
+34.java - Define an abstract class 'Shape' and abstract method 'PrintArea'. Class 'Rectangle','Triangle' and 'Circle' are extended by shape. Write a Java program to display the area of rectangle, triangle and circle.
+35.java - Write an application and interface name 'Shape2D' that declares getArea() method that calculates and returns the area of an enclosed 2D shape. Interface 'Shape3D' declares getVolume() method that calculates and returns the volume of an enclosed 3D shape. The abstract class 'Shape' declares an abstract method Display(), and is extended by class Circle and Sphere. Abstract class 'Shape' implements both 'Shape2D' and 'Shape3D'. Instantiate each of these classes and display the necessary information.
+36.java - Write a program  with class 'Doctor' containing name and qualification of doctor, and another class 'Patient' with 2 field names, name and disease. Extend both the classes to 'Department' which contains department number and department name. An interface named as 'Hospital' contains two fields - Name of hospital and address. Using above classes and interface, get appropriate information and display it.
+37.java - Write a program with class 'Teacher' containing two fields 'Name' and 'Qualification'. Extend the class to Department, which contains 'Department Number' and 'Department Name'. Define an interface named 'College' that contains 1 field, 'Name of the college'. Using the above classes and interface, get the appropriate information and display it.
