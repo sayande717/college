@@ -30,7 +30,8 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 24.c - Write a program in C to search an element in an array using Binary search algorithm.
 25.c - Write a program in C to perform queue implementation using array.
 26.c - Write a program in C to perform queue implementation using structure.
-27.c - Write a program to create a linked list.
+27.c - Write a program in C to create and display a linked list.
+28.c - Write a program to create a linked list & insert data items to it.
 
 [HTML]
 

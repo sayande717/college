@@ -8,91 +8,78 @@ struct node
 };
 typedef struct node NODE;
 NODE *newnode, *first, *temp = 0;
-
-int insert_first()
+void insert_first()
 {
-    NODE *temp1;
-    temp1 = (NODE *)malloc(sizeof(NODE));
+    NODE *temp;
+    temp = (NODE *)malloc(sizeof(NODE));
     printf("\nEnter the data item : ");
-    scanf("%d", &temp1->num);
-    temp1->ptr = first;
-    first = temp1;
-    return (0);
+    scanf("%d", &temp->num);
+    temp->ptr = first;
+    first = temp;
 }
-
-int create()
+void create()
 {
     int choice = 1;
+    newnode = (NODE *)malloc(sizeof(NODE));
+    printf("For creating the linked list, please insert the first data item : ");
+    scanf("%d", &newnode->num);
+    if (first != 0)
+    {
+        temp->ptr = newnode;
+        temp = newnode;
+    }
+    else
+    {
+        first = temp = newnode;
+    }
+    temp->ptr = 0;
+    temp = first;
+    printf("\nLinked List created succesfully.\n");
+    printf("\nPress 1 to insert another data item, or 0 to go back to main menu : ");
+    scanf("%d", &choice);
     while (choice == 1)
     {
-	newnode = (NODE *)malloc(sizeof(NODE));
-	printf("\nEnter the data item : ");
-	scanf("%d", &newnode->num);
-	if (first != 0)
-	{
-	    temp->ptr = newnode;
-	    temp = newnode;
-	}
-	else
-	{
-	    first = temp = newnode;
-	}
-	//fflush(stdin);
-	printf("Press 1 to enter another data item, otherwise 0 : ");
-	scanf("%d", &choice);
-	}
-    temp->ptr = 0;
-    /*  reset temp to the beginning */
-    temp = first;
-    return (0);
-} 
-
-int display()
+        insert_first();
+        printf("\nPress 1 to insert another data item, 0 to go to main menu : ");
+        scanf("%d", &choice);
+    }
+}
+void display()
 {
     int count = 0;
     temp = first;
     printf("\nThe linked list is: ");
     while (temp != 0)
     {
-	printf("%d=>", temp->num);
-	count++;
-	temp = temp->ptr;
+        printf("%d=>", temp->num);
+        count++;
+        temp = temp->ptr;
     }
     printf("NULL\n");
-    printf("No. of nodes in the list = %d\n\n", count);
-    return (0);
+    printf("No. of nodes in the list = %d\n", count);
 }
 void main()
 {
     int ch;
     first = 0;
-    while (ch != 4)
+    //Create the linked list.
+    create();
+    while (ch != 2)
     {
-	printf("\nYour choices - ");
-	printf("\n1 - Insert data item.");
-	printf("\n2 - Insert data item at first position.");
-	printf("\n3 - Diplay linked list.");
-	printf("\n4 - Exit.");
-	printf("\nEnter your choice : ");
-	scanf("%d", &ch);
-	switch (ch)
-	{
-	case 0:
-	    exit(0);
-	    break;
-	case 1:
-	    create();
-	    break;
-	case 2:
-	    insert_first();
-	    break;
-	case 3:
-	    display();
-	    break;
-	case 4:
-	    break;
-	default:
-	    printf("Wrong Input\n");
-	}
+        printf("\nYour choices - ");
+        printf("\n1 - Diplay linked list.");
+        printf("\n2 - Exit.");
+        printf("\nEnter your choice : ");
+        scanf("%d", &ch);
+        switch (ch)
+        {
+        case 1:
+            display();
+            break;
+        case 2:
+            break;
+        default:
+            printf("Wrong Input\n");
+        }
     }
 }
