@@ -96,4 +96,14 @@ These variables are initialised by the constructor for the class. The constructo
 36.java - Write a program  with class 'Doctor' containing name and qualification of doctor, and another class 'Patient' with 2 field names, name and disease. Extend both the classes to 'Department' which contains department number and department name. An interface named as 'Hospital' contains two fields - Name of hospital and address. Using above classes and interface, get appropriate information and display it.
 37.java - Write a program with class 'Teacher' containing two fields 'Name' and 'Qualification'. Extend the class to Department, which contains 'Department Number' and 'Department Name'. Define an interface named 'College' that contains 1 field, 'Name of the college'. Using the above classes and interface, get the appropriate information and display it.
 38.java - Write a program where 4 types of exception, ie arithmetic exception, array index out of bounds exception, string index out of bounds exception, null pointer exception, using different cache blocks that handles the exception and ensures the program does not terminate, using 'finally' block.
-39.java - Interface K1 declares method R and a variable R that is initialised by 1. Interface K2 extends K1 and declares R. Interface K3 extends K2 and declares R. R is of void type in all interfaces. Class 'U' implements Interface K3. If version of method 'R' displays the value of R, then Instantiate 'U' and invoke the method.
+39.java - Interface K1 declares method R and a variable R that is initialised by 1. Interface K2 extends K1 and declares R. Interface K3 extends K2 and declares R. R is of void type in all interfaces. Class 'U' implements Interface K3. If version of method 'R' displays the value of R, then instantiate 'U' and invoke the method.
+40.java - Write a program to initialise a 4 element double array. Calculate the average of the elements.
+41.java - Write a program to initialise a 3x2 matrix. Calculate and display the average of each row and column and also the grand average. //Incomplete
+42.java - Write a program to compute the hypotenuse of a right-angle triangle whose sides are 4.5 and 8.9 units long (use Math.sqrt()) function.
+43.java - Write a program to display the substring from the last 10 characters of a string. Use length() function.
+44.java - A string contains 5 numbers separated by commas (,). Write a program that displays the last number.
+45.java - Write a program that counts the number of digits and letters in a string and displays the values. Use isLetter() and isDigit() functions.
+46.java - Write a program that determines whether a number is prime or not.
+47.java - Write a program that prints the numbers between 17 and 100 which are divisible by 17.
+48.java - Write a program that uses a while loop to count the number of vowels in a string.
+49.java - Write a program to display all factors of a number entered by the user.
