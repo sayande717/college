@@ -107,3 +107,4 @@ These variables are initialised by the constructor for the class. The constructo
 47.java - Write a program that prints the numbers between 17 and 100 which are divisible by 17.
 48.java - Write a program that uses a while loop to count the number of vowels in a string.
 49.java - Write a program to display all factors of a number entered by the user.
+50.java - Write a program that creates 10 rock objects and saves them in an array. Randomly select a mass between 1 and 10kg for each rock as it is created. After all rocks have been created, display their individual mass and the total mass of all rocks. //Incomplete
