@@ -1,12 +1,12 @@
 import java.util.Scanner;
-class temp
+class t
 {
     public static void main(String[] args) 
     {
         Scanner in = new Scanner(System.in);
-        System.out.print("Enter a number : ");
+        System.out.print("Enter a number = ");
         int no = in.nextInt();
-        System.out.println("Factors : ");
+        System.out.println("Factors  ");
         for(int i=1;i<=no;i++)
         {
             if(no%i==0)
