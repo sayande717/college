@@ -33,6 +33,13 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 27.c - Write a program in C to create and display a linked list.
 28.c - Write a program to create a linked list & insert data items to it.
 
+[/sorting]
+bubble.c - Program to demonstrate bubble sort on an integer array.
+selection.c - Program to demonstrate selection sort on an integer array.
+insertion.c - Program to demonstrate insertion sort on an integer array.
+merge.c - Program to demonstrate merge sort on an integer array.
+quick.c - Program to demonstrate quick sort on an integer array.
+
 [HTML]
 
 1. Personal Profile - A personal profile page.
