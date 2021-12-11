@@ -32,6 +32,9 @@ class sphere
         System.out.println("Y Coordinate : "+y);
         System.out.println("Z Coordinate : "+z);
     }
+}
+class ass21
+{
     public static void main(String[] args) 
     {
         sphere sp1 = new sphere();
