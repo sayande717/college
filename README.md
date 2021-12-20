@@ -32,6 +32,7 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 26.c - Write a program in C to perform queue implementation using structure.
 27.c - Write a program in C to create and display a linked list.
 28.c - Write a program to create a linked list & insert data items to it.
+29.c - Write a program to perform create, inorder, preorder and postorder operations on a Binary Search Tree.
 
 [/sorting]
 bubble.c - Program to demonstrate bubble sort on an integer array.
@@ -39,6 +40,7 @@ selection.c - Program to demonstrate selection sort on an integer array.
 insertion.c - Program to demonstrate insertion sort on an integer array.
 merge.c - Program to demonstrate merge sort on an integer array.
 quick.c - Program to demonstrate quick sort on an integer array.
+heap.c - Program to demonstrate heap sort on an integer array.
 
 [HTML]
 
@@ -114,9 +116,8 @@ These variables are initialised by the constructor for the class. The constructo
 (No. 2) 24.java - Continuing from program (No. 1), add two methods, findArea() and findVolume(). Display the surface area and the volume of sphere using argument constructor.
 (No. 3) 58.java - Add two instance methods to class sphere (continuing from No. 1). The first name is move(). This takes three double parameters that are new values for the coordinates of the centre. The second is scale(). This takes one double parameter that is used to scale the radius. Demonstrate these two methods.
 (No. 4) 26.java -  Write a program that has an overloaded method.The 1st method should accept no argument and display "Welcome to JAVA" 1 time. The 2nd method should accept a string and display "Welcome to Polymorphism" 2 times. The 3rd method should accept a string and an integer and display "Welcome to Overloading" 3 times.
-(No. 5) 50.java - Write a program that creates 10 rock objects and saves them in an array. Randomly select a mass between 1 and 10kg for each rock as it is created. After all rocks have been created, display their individual mass and the total mass of all rocks. //Incomplete
+(No. 5) 50.java - Write a program that creates 10 rock objects and saves them in an array. Randomly select a mass between 1 and 10kg for each rock as it is created. After all rocks have been created, display their individual mass and the total mass of all rocks.
 (No. 6) 51.java - Write an application that accepts one command line argument and displays it's Spanish equivalent. For example, the tokens 'UNO','dos','tres','quarto' and 'cinco' are the Spanish tokens for the numbers one though five. Create a class with static method to accomplish this task.
-
 
 [Sem 3, Assignment 3]
 (No. 1) 52.java - Write an application that illustrates variable hiding. Class S declares an instance variable X of integer type (ie it is a subset of S). Extend S by class T and declare an instance variable named X of string type. Instantiate borh of these classes. Initialise and display the variable named X with these objects.
