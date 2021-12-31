@@ -1,6 +1,5 @@
 Program Description -
 [C] -
-
 1.c - Prints all 3 digit Armstrong numbers.
 Note - If a^3 + b^3 + c^3 = abc (where 3 is the number of digits of the number 'abc') then abc is an Armstrong number.
 2.c - Calculates v=u+ft when any one of the parameters is missing while the rest are given.
@@ -21,30 +20,51 @@ Note - If a! + b! + c! = abc then abc is a Peterson number. ! = factorial of a n
 Note - A number is a prime number if it is only divisible by 1 & itself.
 16.c - Checks whether a number entered is a prime number. The number must be >0.
 17.c - Prints the sum of digits in a number.
-18.c - Insert an element at a given location in an array.
-19.c - Delete an element from a given location in an array.
-20.c - Program to implement Stack using arrays.
-21.c - Program to implement Stack using structures.
-22.c - Write a program in C to perform circular queue implementation using array.
-23.c - Write a program in C to search an element in an array using Linear search algorithm.
-24.c - Write a program in C to search an element in an array using Binary search algorithm.
-25.c - Write a program in C to perform queue implementation using array.
-26.c - Write a program in C to perform queue implementation using structure.
-27.c - Write a program to perform create, inorder, preorder and postorder operations on a Binary Search Tree.
+31.c - Program to create and display a circular linked list.
 
-[/linked list]
-create_display.c - Program to create and display a single list list.
-full.c - Program to create a linked list & insert data items to it, at first, last or any position.
-reverse.c - Program to reverse a linked list.
-circular.c - Program to create and display a circular linked list.
+> C/Lab Assignments - 
 
-[/sorting]
-bubble.c - Program to demonstrate bubble sort on an integer array.
-selection.c - Program to demonstrate selection sort on an integer array.
-insertion.c - Program to demonstrate insertion sort on an integer array.
-merge.c - Program to demonstrate merge sort on an integer array.
-quick.c - Program to demonstrate quick sort on an integer array.
-heap.c - Program to demonstrate heap sort on an integer array.
+[Semester 3]
+[Assignment 1] - 
+(1) 18.c - Insert an element at a given location in an array.
+(2) 19.c - Delete an element from a given location in an array.
+
+[Assignment 2] - 
+(1) 23.c - Write a program in C to search an element in an array using Linear search algorithm.
+(2) 24.c - Write a program in C to search an element in an array using Binary search algorithm.
+
+[Assignment 3] - 
+(1) 20.c - Program to implement Stack using arrays.
+(2) 21.c - Program to implement Stack using structures.
+
+[Assignment 4] - 
+(1) 25.c - Write a program in C to perform queue implementation using array.
+(2) 26.c - Write a program in C to perform queue implementation using structure.
+(3) 22.c - Write a program in C to perform circular queue implementation using array.
+
+[Assignment 5] - 
+(1) 28.c - Program to create and display a single list list.
+(2) 29.c - Program to create a linked list & insert data items to it, at first, last or any position.
+
+[Assignment 6] - 
+(1) 30.c - Program to reverse a linked list.
+
+[Assignment 7] - 
+(1) 32.c - Program to demonstrate bubble sort on an integer array.
+(2) 33.c - Program to demonstrate selection sort on an integer array.
+(3) 34.c - Program to demonstrate insertion sort on an integer array.
+
+[Assignment 8] - 
+(1) 35.c - Program to demonstrate merge sort on an integer array.
+
+[Assignment 9] - 
+(1) 36.c - Program to demonstrate quick sort on an integer array.
+(2) 37.c - Program to demonstrate heap sort on an integer array.
+
+[Assignment 10] - 
+(1) 27.c - Write a program to perform create, inorder, preorder and postorder operations on a Binary Search Tree.
+
+--------------------------------------------------------------------------------------------
 
 [HTML]
 
@@ -61,6 +81,8 @@ b. tic.css.
 c. tic.js.
 3. checkpass.html - Checks whether 2 entered passwords are the same.
 4. even.html - Checks whether the number entered is even.
+
+------------------------------------------------------------------------------------
 
 [Java]
 1.java - Print 'Hello World'.

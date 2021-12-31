@@ -2,7 +2,7 @@ class ass54
 {
     public static void main(String[] args) 
     {
-        int a = 5, b = 10, c[] = { 1, 2, 3 }, d[] = null;
+        int a = 5, b = 0, c[] = { 1, 2, 3 }, d[] = null;
         String s = "Sayan";
         try 
         {
@@ -10,7 +10,7 @@ class ass54
             {
                 try 
                 {
-                    switch (i) 
+                    switch (i)
                     {
                         case 0:
                             System.out.println(a / b);
