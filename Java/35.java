@@ -1,53 +1,61 @@
 interface Shape2D
 {
     double pi = 3.14;
-    double getArea(double r);
+    double getArea();
 }
 interface Shape3D
 {
-    //double pi = 3.14;
-    double getVolume(double r);
+    double getVolume();
 }
-abstract class Shape1 implements Shape2D,Shape3D
+abstract class Shape implements Shape2D,Shape3D
 {
-    public double getArea(double a1)
+    double r;
+    Shape(double radius)
     {
-        return (pi*a1*a1);
+        r = radius;
     }
-    public double getVolume(double a2)
+    public double getArea()
     {
-        return ((4/3)*pi*a2*a2*a2);
+        return (pi*r*r);
     }
-    abstract void Display(double ar);
+    public double getVolume()
+    {
+        return ((4/3)*pi*r*r*r);
+    }
+    abstract void Display();
 }
-class Circle2 extends Shape1
+class Circle extends Shape
 {
-    public void Display(double ar)
+    Circle(double r1)
     {
-        System.out.println("Area is : "+ar);
+        super(r1);
+    }
+    public void Display()
+    {
+        System.out.println("\nArea of Circle : "+getArea());
     }
 }
-class Sphere2 extends Shape1
+class Sphere extends Shape
 {
-    public void Display(double vol)
+    Sphere(double r1)
     {
-        System.out.println("Volume is : "+vol);
+        super(r1);
+    }
+    public void Display()
+    {
+        System.out.println("\nVolume of Sphere : "+getVolume());
     }
 }
-class Assignment
+class ass43
 {
     public static void main(String[] args)
     {
-        double t1,t2;
-        Shape3D r1;
-        Shape2D r2;
-        Sphere2 s = new Sphere2();
-        Circle2 c = new Circle2();
-        r1=s;
-        r2=c;
-        t1 = r1.getVolume(5.0);
-        s.Display(t1);
-        t2 = r2.getArea(3.0);
-        c.Display(t2);
+        Circle c = new Circle(5);
+        Sphere s = new Sphere(10);
+        Shape ref;
+        ref = c;
+        ref.Display();
+        ref = s;
+        ref.Display();
     }
 }
