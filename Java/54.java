@@ -27,7 +27,7 @@ class U1 extends T1
         super(a,b);
         u1=c;
         System.out.println("U1 extended");
-        System.out.println("Integer="+u1);
+        System.out.println("Integer = "+u1);
     }
 }
 class ass33
