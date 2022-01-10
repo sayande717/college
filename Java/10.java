@@ -1,4 +1,5 @@
-class primeno {
+class primeno 
+{
     public static void main(String[] args) 
     {
         int i, j, counter = 0;
@@ -13,5 +14,14 @@ class primeno {
             System.out.print(i + " ");
         }
         System.out.println("");
+    }
+}
+
+class primeno
+{
+    public static void main(String[] args) 
+    {
+        int i,j counter = 0;
+        System.out.println("Prime numbers")
     }
 }

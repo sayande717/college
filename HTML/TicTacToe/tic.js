@@ -309,7 +309,9 @@ function myfunc_10(){
     document.getElementById("b8").value="X";
     document.getElementById("b8").disabled=true;
     flag=0;
-  }else{
+  }
+  else
+  {
     document.getElementById("b8").value="0";
     document.getElementById("b8").disabled=true;
     flag=1;

@@ -5,6 +5,6 @@ class dividedby17
         int i;
         for(i=18;i<=100;i++)
         if(i%17==0)
-        System.out.println(i);           
+        System.out.println(i);
     }
 }

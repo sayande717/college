@@ -1,4 +1,5 @@
 import java.util.Scanner;
+/*
 class factorsofanumber
 {
     public static void main(String[] args) 
@@ -14,3 +15,6 @@ class factorsofanumber
         sc.close();
     }
 }
+*/
+
+class
