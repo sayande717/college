@@ -43,8 +43,8 @@ class ass54
                     System.out.println("Exception: " + e + " Invalid use of null reference");
                 }
             }
-        } 
-        finally 
+        }
+        finally
         {
             System.out.println("Program executing again");
         }

@@ -1,6 +1,6 @@
 Test directories - 
 HTML (SSH)
-Directory - ~/hdd/coding/test/HTML
+Directory - ~/hd/coding/test/HTML
 Local site - http://10.0.17.6:86/
 
 Program Description -
