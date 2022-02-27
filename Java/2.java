@@ -1,4 +1,5 @@
-class circle {
+class circle 
+{
     public static void main(String[] args) 
     {
         double radius = 5, perimeter,area = 3.14 * radius * radius;
