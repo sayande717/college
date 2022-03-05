@@ -174,3 +174,11 @@ These variables are initialised by the constructor for the class. The constructo
 (2) 64.java - Interface LuminousObject declares lightOff() and lightOn() methods. Class SolidObject is extended by Cone and Cube and implements LuminousObject. Class LuminousCone extends Cone and implements LuminousObject. Class LuminousCube extends Cube and implements LuminousObject. Instantiate the LuminousCone and LuminousCube classes. Use interface reference to those objects. Invoke the methods of LuminousObject interface via the interface reference.
 (3) 65.java - Interface JointEntrance declares seatExam() and getAdmission() methods.Class ScienceGroup, which implements JointEntrance, is extended by class Medical and Engineering. Class PureScience extends Engineering and implements JointEntrance. Instantiate the BioScience and PureScience classes. Use interface reference to refer to those objects. Invoke the methods of the JointEntrance interface through the interface reference.
 (4) 66.java - Write a program where four types of exception ie Arithmetic exception, ArrayIndexOutOfBounds, StringOutOfBounds, Null pointer using different catch block to handle that exception and ensure that the program is not terminated using final block concept.
+
+> Python/Lab Assignments - 
+
+[Semester 4]
+[Assignment 1] - 
+(1) 1.py - Write a program to check if a number is even or not.
+(2) 2.py - Write a program to convert Celcius to Fahrenheit.
+(3) 3.py - Write a program to find the area of a triangle whose sides are given.
