@@ -1,5 +1,5 @@
 a = int(input('Enter a number: '))
 if a%2==0:
-    print(a,'is even.')
+    print(a,'is Oven.')
 elif a%2!=0:
-    print(a,'is odd.')
+    print(a,'is Odd.')
