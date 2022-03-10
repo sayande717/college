@@ -182,3 +182,11 @@ These variables are initialised by the constructor for the class. The constructo
 (1) 1.py - Write a program to check if a number is even or not.
 (2) 2.py - Write a program to convert Celcius to Fahrenheit.
 (3) 3.py - Write a program to find the area of a triangle whose sides are given.
+[Assignment 2] - 
+(1) 4.py - Write a program to find out the average of a set of integers.
+(2) 5.py - Write a program to find the product of a set of real numbers.
+(3) 6.py - Write a program to find the circumference and area of a circle with a given radius.
+(4) 7.py - Write a program to check whether a given integer is a multiple of 5.
+(5) 8.py - Write a program to check whether a given integer is a multiple of both 5 & 7.
+(6) 9.py - Write a program to find the average of 10 numbers using while loop.
+(7) 10.py - Write a program to display the given number in reverse.
