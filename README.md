@@ -69,6 +69,12 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 [Assignment 10] - 
 (1) 27.c - Write a program to perform create, inorder, preorder and postorder operations on a Binary Search Tree.
 
+[Semester 4]
+(1) 38.c - Implement Binary search using Divide & Conquer technique.
+(2) 39.c - Implement Binary search using Divide & Conquer method.
+(3) 40.c - Fractional Knapsack problem.
+(4) 41.c - 0-1 Knapsack problem.
+
 --------------------------------------------------------------------------------------------
 
 [HTML]
