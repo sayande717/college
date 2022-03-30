@@ -5,4 +5,4 @@ for i in range (1,N+1):
         if i % j == 0:
             counter = counter + 1
     if counter == 1:
-        print(i)
+        print(i,end=' ')

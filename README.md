@@ -189,18 +189,18 @@ These variables are initialised by the constructor for the class. The constructo
 (2) 2.py - Write a program to convert Celcius to Fahrenheit.
 (3) 3.py - Write a program to find the area of a triangle whose sides are given.
 [Assignment 2] - 
-(4) 4.py - Write a program to find out the average of a set of real numbers.
-(5) 5.py - Write a program to find the product of a set of real numbers.
-(6) 6.py - Write a program to find the circumference and area of a circle with a given radius.
-(7) 7.py - Write a program to check whether a given integer is a multiple of 5.
-(8) 8.py - Write a program to check whether a given integer is a multiple of both 5 & 7.
-(9) 9.py - Write a program to find the average of 10 numbers using while loop.
-(10) 10.py - Write a program to display the given number in reverse.
+(1) 4.py - Write a program to find out the average of a set of real numbers.
+(2) 5.py - Write a program to find the product of a set of real numbers.
+(3) 6.py - Write a program to find the circumference and area of a circle with a given radius.
+(4) 7.py - Write a program to check whether a given integer is a multiple of 5.
+(5) 8.py - Write a program to check whether a given integer is a multiple of both 5 & 7.
+(6) 9.py - Write a program to find the average of 10 numbers using while loop.
+(7) 10.py - Write a program to display the given number in reverse.
 [Assignment 3] - 
-(11) 11.py - Write a program find the Geometric Mean of n numbers.
-(12) 12.py - Write a program to find the sum of digits of an integer using while loop.
-(13) 13.py - Write a program to display all the multiples of 3 in the range of 10 to 50.
-(14) 14.py - Write a program to display all integers within the range of 100-200 whose sum of digits is an even number.
-(15) 15.py - Write a program to check whether a given integer is a prime number or not.
-(16) 16.py - Write a program to generate prime numbers from 1 to N.
-(17) 17.py - Write a program to find the roots of a quadratic equation.
+(1) 11.py - Write a program to find the Geometric Mean of n numbers.
+(2) 12.py - Write a program to find the sum of digits of an integer using while loop.
+(3) 13.py - Write a program to display all the multiples of 3 in the range of 10 to 50.
+(4) 14.py - Write a program to display all integers within the range of 100-200 whose sum of digits is an even number.
+(5) 15.py - Write a program to check whether a given integer is a prime number or not.
+(6) 16.py - Write a program to generate prime numbers from 1 to N.
+(7) 17.py - Write a program to find the roots of a quadratic equation.
