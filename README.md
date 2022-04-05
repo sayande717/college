@@ -204,3 +204,10 @@ These variables are initialised by the constructor for the class. The constructo
 (5) 15.py - Write a program to check whether a given integer is a prime number or not.
 (6) 16.py - Write a program to generate prime numbers from 1 to N.
 (7) 17.py - Write a program to find the roots of a quadratic equation.
+[Assignment 4] - 
+(1) 18.py - Write a program to print numbers from a given number n to 0 using recursion.
+(2) 19.py - Write a program to find the factorial of a number using recursion.
+(3) 20.py - Write a program to display the sum of n numbers using a list.
+(4) 21.py - Write a program to implement Linear Search.
+(5) 22.py - Write a program to implement Binary Search.
+(6) 23.py - Write a program to find the odd numbers in an array.

@@ -18,8 +18,8 @@ void main()
         break;
     }
     if(counter==size)
-    printf("Element not found.");
+        printf("Element not found.");
     else
-    printf("Element found at position %d.",(counter+1));
-    printf("\n");
+        printf("Element found at position %d.",(counter+1));
+        printf("\n");
 }
