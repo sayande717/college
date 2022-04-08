@@ -1,6 +1,6 @@
 def binsearch(arr,sno):
     first = 0
-    last =  int(len(arr) - 1)
+    last =  len(arr) - 1
 
     while first <= last:
         mid = (first + last) / 2
