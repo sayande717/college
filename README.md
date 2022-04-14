@@ -1,7 +1,3 @@
-Test directories - 
-HTML (SSH)
-Directory - ~/coding/practice/HTML/test/
-Local site - http://192.168.1.5:86/
 
 Program Description -
 [C] -
