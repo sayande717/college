@@ -74,6 +74,8 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 (2) 39.c - Implement Binary search using Divide & Conquer method.
 (3) 40.c - Fractional Knapsack problem.
 (4) 41.c - 0-1 Knapsack problem.
+(5) 42.c - 0-1 Knapsack problem using Dynamic Programming.
+(6) 43.c - Find out the minimum and maximum element using Divide & Conquer algorithm.
 
 --------------------------------------------------------------------------------------------
 
