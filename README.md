@@ -72,6 +72,10 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 (4) 41.c - 0-1 Knapsack problem.
 (5) 42.c - 0-1 Knapsack problem using Dynamic Programming.
 (6) 43.c - Find out the minimum and maximum element using Divide & Conquer algorithm.
+(7) 44.c - Program on Matrix Chain Multiplication.
+(8) 45.c - Prims algorithm to find Minimum Spanning Tree.
+(9) 46.cpp - 8-Queen problem using Backtracking method.
+(10) 47.cpp - Program to implement Travelling Salesman Problem.
 
 --------------------------------------------------------------------------------------------
 
@@ -165,7 +169,7 @@ These variables are initialised by the constructor for the class. The constructo
 (4) 55.java - The class Jetplane declares an abstract method named numEngines(). There are two concrete subclasses named DC8 and DC10, each of which provides a different implementation of the numEngines() method. The main class instantiates each of these classes and invokes numEngine() method. Also declare a constructor in the abstract class Jetplane. This constructor variable to be inherited by the subclasses DC8 and DC10 (using super keyword) to represent seating capacity of the plane.
 (5) 57.java - The abstract Bird class has four subclasses Pelicans, BrownBooby, LittleBittern, Shikra. Write an application that demonstrates how to establish this class hierarchy. Define an argument constructor of super class Bird that has one String variable, which describes the list of the Bird as "This is a list of the bird species recorded in India. The avifuna of India includes around 1301 species, of which 42 are endemic, 1 has been introduced by humans, and 26 are rare or accidental." to be displayed by inheriting from one of it's subclass. Declare one instance variable of type String that indicates the shape of each subclass of Bird. Create and display instances of these objects. Override toString() method of object to return a string with the description of a Bird and it's food. #Homework
 (6) 56.java - The abstract class Airplane has three subclasses, B747,B757,B767. Each airplane type can transport a different number of passengers, each airplane object has an unique serial number. Write an application that declares this class hierarchy. Instantiate several types of airplanes and display them. Override toString() method of the objects to return a string with the type, serial number and capacity.
-
+ 
 [Assignment 4]
 (1) 59.java - Abstract class Weight has four concrete subclass named WeightA, WeightB, WeightC, WeightD, the mass of them is 4,1.5,1.4,7 respectively. Each weight object has String that identifies it's colour. Create 6 objects and store them in a one dimensional array & display it's entities & total mass.
 (2) 60.java - The abstract class Fruit has four subclasses apple, orange, strawberry, banana. Write the following application that demonstrates how to establish this class hierarchy. Declare one instance variable of type String that indicates the colour of fruit. Create & display instances of these objects. Override the toString() method of object to return a string with the name of the fruit & it's colour.
@@ -209,3 +213,14 @@ These variables are initialised by the constructor for the class. The constructo
 (4) 21.py - Write a program to implement Linear Search.
 (5) 22.py - Write a program to implement Binary Search.
 (6) 23.py - Write a program to find the odd numbers in an array.
+[Assignment 5] - 
+(1) 24.py - Write a program to find the largest number in a list without using built-in functions.
+(2) 25.py - Write a program to insert a number in any position in a list.
+(3) 26.py - Write a program to delete an element from a list by it's index.
+(4) 27.py - Write a program to check whether a string is palindrome or not.
+(5) 28.py - Write a program to implement Matrix Addition. 
+(6) 29.py - Write a program to implement Matrix Multiplication.
+(7) 30.py - Write a program to check whether a year is a leap year or not.
+(8) 31.py - Write a program to find the nth term in a Fibonacci series using recursion.
+(9) 32.py - Write a program to print Fibonacci series using recursion.
+(10) 33.py - Write a program to implement a calculator to do basic operations.

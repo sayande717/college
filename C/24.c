@@ -9,7 +9,7 @@ void main()
     for (counter = 0; counter < size; counter++)
     {
         printf("Element %d : ", (counter + 1));
-        scanf("%d", &array[counter]); 
+        scanf("%d", &array[counter]);
     }
     printf("Enter number to search : ");
     scanf("%d", &searchnum);
