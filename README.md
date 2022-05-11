@@ -76,6 +76,8 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 (8) 45.c - Prims algorithm to find Minimum Spanning Tree.
 (9) 46.cpp - 8-Queen problem using Backtracking method.
 (10) 47.cpp - Program to implement Travelling Salesman Problem.
+(11) 48.c - Program to implement Depth First Search (DFS).
+(12) 49.c - Program to implement Floyd Warshall algorithm in C.
 
 --------------------------------------------------------------------------------------------
 
