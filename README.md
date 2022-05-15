@@ -78,6 +78,8 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 (10) 47.cpp - Program to implement Travelling Salesman Problem.
 (11) 48.c - Program to implement Depth First Search (DFS).
 (12) 49.c - Program to implement Floyd Warshall algorithm in C.
+(13) 50.c - Program to implement BFS (Breadth First Search) in C.
+(14) 51.c - Program to implement Djikstra's algorithm.
 
 --------------------------------------------------------------------------------------------
 
@@ -226,3 +228,36 @@ These variables are initialised by the constructor for the class. The constructo
 (8) 31.py - Write a program to find the nth term in a Fibonacci series using recursion.
 (9) 32.py - Write a program to print Fibonacci series using recursion.
 (10) 33.py - Write a program to implement a calculator to do basic operations.
+[Assignment 6] - 
+[Sets]
+(1) 34.py - Write a program to add a list of elements to a set.
+(2) 35.py - Write a program to return a new set of identical items from two sets.
+(3) 36.py - Write a program to get only unique items from two sets.
+(4) 37.py - Write a program to update the first set with items that don't exist in the second set.
+(5) 38.py - Write a program to remove items from the set at once.
+(6) 39.py - Write a program to return a set of elements present in Set A or B, but not both.
+(7) 40.py - Write a program to check if two sets have any elements in common. If yes, display the common elements.
+(8) 41.py - Write a program to update set1 by adding items from set2, except common items.
+(9) 42.py - Write a program to remove items from set1 that are not common to both set1 and set2.
+[Tuple]
+(10) 43.py - Write a program to reverse the tuple.
+(11) 44.py - Write a program to Access value '20' from the tuple.
+(12) 45.py - Write a program to create a tuple with a single item, '50'.
+(13) 46.py - Write a program to unpack the tuple into 4 variables.
+(14) 47.py - Write a program to swap two tuples in Python.
+(15) 48.py - Write a program to copy specific elements from one tuple to a new tuple.
+(16) 49.py - Write a program to modify the tuple.
+(17) 50.py - Write a program to sort the tuple of tuples by the 2nd item.
+(18) 51.py - Write a program to count the number of occurrences of item 50 from a tuple.
+(19) 52.py - Write a program to check if all items in the tuple are the same.
+[Dictionary]
+(20) 53.py & 54.py (2 solutions) - Write a program to convert two lists into a dictionary.
+(21) 55.py - Write a program to merge two Python dictionaries into one.
+(22) 56.py - Write a program to print the value of key 'history' from the below dict.
+(23) 57.py - Write a program to delete a list of keys from a dictionary.
+(24) 58.py - Write a program to check if a value exists in a dictionary.
+(25) 59.py - Write a program to rename key of a dictionary.
+(26) 60.py - Write a program to get the key of a minimum value from the following dictionary.
+(27) 61.py - Write a program to change value of a key in a nested dictionary.
+(28) 62.py - Create a dictionary using Student Name with Total marks. Find the name of the student who gets the highest marks.
+(29) 63.py - Create a dictionary using Emp Name with their net salary. Find the average salary of employees. Also, find all employee names who get more than this average salary.
