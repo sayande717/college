@@ -50,7 +50,7 @@ void main()
     int n,i,j;
     float c,p[10],w[50],v[10],sum_vi=0.0,sum_wi=0.0,temp;
     printf("\nEnter the number of items: ");
-    scanf("%d",&w[i]);
+    scanf("%d",&n);
     for(i=0;i<n;i++)
     {
         printf("Enter weight of item: ");

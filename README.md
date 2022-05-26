@@ -261,3 +261,9 @@ These variables are initialised by the constructor for the class. The constructo
 (27) 61.py - Write a program to change value of a key in a nested dictionary.
 (28) 62.py - Create a dictionary using Student Name with Total marks. Find the name of the student who gets the highest marks.
 (29) 63.py - Create a dictionary using Emp Name with their net salary. Find the average salary of employees. Also, find all employee names who get more than this average salary.
+[Assignment 7]
+(1) 64.py - Write a program to demonstrate the module 'datetime' & 'time'.
+(2) 65.py - Write a program to demonstrate the module 'numpy'.
+(3) 66.py - Write a program to demonstrate the module 'Pandas'.
+(4) 67.py - Write a program to demonstrate the module 'SciPy'.
+(5) 68.py - Write a program to demonstrate the module 'Matplotlib'.

@@ -21,7 +21,7 @@ void binSearch(int Key,int a[],int n)
     if(j == -1)
         printf("The number not found.");
     else
-        printf("The number is found.");    
+        printf("The number is found in position %d."+j);    
 }
 int main()
 {

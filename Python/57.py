@@ -1,6 +1,3 @@
-from random import sample
-
-
 sample_dict= {
     "name": "Kelly",
     "age":25,
