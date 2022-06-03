@@ -4,7 +4,7 @@ Program Description -
 1.c - Prints all 3 digit Armstrong numbers.
 Note - If a^3 + b^3 + c^3 = abc (where 3 is the number of digits of the number 'abc') then abc is an Armstrong number.
 2.c - Calculates v=u+ft when any one of the parameters is missing while the rest are given.
-3.c - Convert a decimel number to it's binary equivalent.
+3.c - Convert a decimal number to it's binary equivalent.
 4.c - Find out the factorial of a number.
 5.c - Print the fibonacci series (using function).
 6.c - Print the fibonacci series.
@@ -267,3 +267,10 @@ These variables are initialised by the constructor for the class. The constructo
 (3) 66.py - Write a program to demonstrate the module 'Pandas'.
 (4) 67.py - Write a program to demonstrate the module 'SciPy'.
 (5) 68.py - Write a program to demonstrate the module 'Matplotlib'.
+[Assignment 8]
+(1) 69.py - Create a class and object using Python.
+(2) 70.py - Create a class and object with method.
+(3) 71.py - Program on Inheritance.
+(4) 72.py - Program to use class and objects to calculate total marks obtained by a student.
+(5) 73.py - Program to demonstrate method overriding.
+(6) 74.py - Program to demonstrate how a private attribute works.
