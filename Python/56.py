@@ -9,4 +9,5 @@ sampleDict={
         }
     }
 }
+
 print(sampleDict['class']['student']['marks']['History'])

@@ -7,6 +7,7 @@ sample_dict= {
 
 keys=["name","salary"]
 
+
 for k in keys:
     sample_dict.pop(k)
 

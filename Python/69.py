@@ -1,6 +1,3 @@
-from telnetlib import DO
-
-
 class Dog:
     #Class attribute
     attr1 = 'mammal'
