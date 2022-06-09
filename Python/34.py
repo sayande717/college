@@ -1,6 +1,3 @@
-from random import sample
-
-
 sample_set = {"Yellow","Orange","Black"}
 sample_list = ["Blue","Green","Red"]
 
