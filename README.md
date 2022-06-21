@@ -239,6 +239,7 @@ These variables are initialised by the constructor for the class. The constructo
 (7) 40.py - Write a program to check if two sets have any elements in common. If yes, display the common elements.
 (8) 41.py - Write a program to update set1 by adding items from set2, except common items.
 (9) 42.py - Write a program to remove items from set1 that are not common to both set1 and set2.
+
 [Tuple]
 (10) 43.py - Write a program to reverse the tuple.
 (11) 44.py - Write a program to Access value '20' from the tuple.
@@ -250,6 +251,7 @@ These variables are initialised by the constructor for the class. The constructo
 (17) 50.py - Write a program to sort the tuple of tuples by the 2nd item.
 (18) 51.py - Write a program to count the number of occurrences of item 50 from a tuple.
 (19) 52.py - Write a program to check if all items in the tuple are the same.
+
 [Dictionary]
 (20) 53.py & 54.py (2 solutions) - Write a program to convert two lists into a dictionary.
 (21) 55.py - Write a program to merge two Python dictionaries into one.
