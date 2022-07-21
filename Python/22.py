@@ -4,11 +4,11 @@ def binsearch(arr,sno):
     last =  len(arr) - 1
 
     while first <= last:
-        mid = int(first + last) / 2
+        mid = (first + last) // 2
         
-        if (arr[mid] < sno):
+        if arr[mid] < sno:
             first = mid + 1
-        elif arr[mid] > sno:
+        elif int(arr[mid]) > sno:
             last = mid - 1
         else:
             return mid

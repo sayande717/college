@@ -8,5 +8,5 @@ if pos > n:
     print('Position cannot be greater than no. of elements.')
 else:
     num = int(input('Enter the element: '))
-    list.insert(pos,num)
+    list.insert(pos-1,num)
 print('List: ',list)
