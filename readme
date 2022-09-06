@@ -276,3 +276,9 @@ These variables are initialised by the constructor for the class. The constructo
 (4) 72.py - Program to use class and objects to calculate total marks obtained by a student.
 (5) 73.py - Program to demonstrate method overriding.
 (6) 74.py - Program to demonstrate how a private attribute works.
+
+[PHP]-VAC
+1.php - Using Arithmetic operators.
+2.php - Using Assignment operators.
+3.php - Using Comparison operators.
+4.php - Using Logical operators.
