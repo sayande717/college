@@ -1,24 +1,12 @@
-<!DOCTYPE html>
+<?doctype html>
 <html>
+<head><title>My first PHP code!</title></head>
 <body>
-
-    <?php
-    $a=5;
-    $b=10;
-    print "Addition: ($a+$b)";
-    print "<br>";
-    print "Substraction: ($a-$b)";
-    print "<br>";
-    print "Multiplication: ($a*$b)";
-    print "<br>";
-    print "Division: ($a/$b)";
-    print "<br>";
-    print "Modulus: ($a%$b)";
-    print "<br>";
-    print "Increment: ($a++)";
-    print "<br>";
-    print "Decrement: ($b--)";
-    ?>
-
+<?php
+echo "<b>Name:</b> Sayan De";
+echo "<br><b>College Name: </b> Haldia Institute of Technology";
+print "<br>";
+echo "<br><b>Department Name: </b> Information Technology";
+?>
 </body>
 </html>

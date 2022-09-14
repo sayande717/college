@@ -278,7 +278,27 @@ These variables are initialised by the constructor for the class. The constructo
 (6) 74.py - Program to demonstrate how a private attribute works.
 
 [PHP]-VAC
-1.php - Using Arithmetic operators.
-2.php - Using Assignment operators.
-3.php - Using Comparison operators.
-4.php - Using Logical operators.
+[Assignment 1]:
+1.php - Print your name, college name and department.
+2.php – Using a PHP variable.
+3.php - Print your college name, Branch, and Batch.
+4.php - Code on Arithmetic operators.
+5.php - Code on Assignment operators.
+6.php - Code on Comparison operators.
+7.php - Code on Logical operators.
+[Assignment 2]:
+8.php - Code to demonstrate string data type.
+9.php - Code to demonstrate integer data type.
+10.php - Code to demonstrate float data type.
+11.php - Code to demonstrate boolean data type.
+12.php - Code to demonstrate array data type.
+13.php - Code to demonstrate object data type (create a class and objects).
+14.php - Code to demonstrate null data type.
+15.php - Code to demonstrate if statement.
+16.php - Code to demonstrate if-else statement.
+17.php - Code to demonstrate if-esif-else statement.
+18.php - Code to demonstrate switch statement.
+19.php - Code to demonstrate while loop.
+20.php - Code to demonstrate do-while loop.
+21.php - Code to demonstrate for loop.
+22.php - Code to demonstrate foreach loop.

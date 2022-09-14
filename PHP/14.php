@@ -2,8 +2,8 @@
 <html>
 <body>
 <?php
-$x='Hello, world!';
-echo "$x";
+$x;
+var_dump($x);
 ?>
 </body>
 </html>

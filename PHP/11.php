@@ -2,8 +2,9 @@
 <html>
 <body>
 <?php
-$x='Hello, world!';
-echo "$x";
+$x = 40;
+$y = -20;
+var_dump($x!=$y);
 ?>
 </body>
 </html>
