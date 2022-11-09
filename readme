@@ -298,10 +298,108 @@ These variables are initialised by the constructor for the class. The constructo
 16.php - Code to demonstrate if-else statement.
 17.php - Code to demonstrate if-esif-else statement.
 18.php - Code to demonstrate switch statement.
+[Assignment 3]:
 19.php - Code to demonstrate while loop.
 20.php - Code to demonstrate do-while loop.
 21.php - Code to demonstrate for loop.
 22.php - Code to demonstrate foreach loop.
+
+23.php - Code to take input from the user & print it.
+24.php - Code to demonstrate break statement.
+25.php - Code to demonstrate continue statement.
+26.php - Code to print the sequence: 1  4  7  10
+27.php - Code to print the sequence: 100  98  96  94
+28.php - Code to print the sequence: 1  8  27  64
+29.php - Code to print the pattern:
+*
+**
+***
+****
+*****
+
+30.php - Code to print the pattern:
+*****
+****
+***
+**
+*
+
+31.php - Code to print the pattern:
+a a a a a
+a a a a *
+a a a * *
+a a * * *
+a * * * *
+
+32.php - Code to swap between 2 numbers without using [] brackets.
+33.php - Code to print factorial of a number.
+34.php - Code to print the fibonacci series.
+35.php - Code to print the pattern:
+1
+1 1
+1 1 1
+1 1 1 1
+1 1 1 1 1
+
+36.php - Code to print the pattern:
+1 1 1 1 1
+1 1 1 1
+1 1 1
+1 1
+1
+
+37.php - Code to print the pattern:
+5 4 3 2 1
+5 4 3 2
+5 4 3
+5 4
+5
+
+38.php - Code to print the pattern:
+5 5 5 5 5
+4 4 4 4
+3 3 3
+2 2
+1
+
+39.php - Code to print the pattern:
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+
+40.php - Code to print the pattern:
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+
+41.php - Code to print the pattern:
+A
+B B
+C C C
+D D D D
+E E E E E
+
+[Assignment 5]:
+Code to demonstrate the following string functions:
+42.php - StrtoUpper($str)
+43.php - StrtoLower($str)
+44.php - ucfirst($str)
+45.php - lcfirst($str)
+46.php - ucwords($str)
+47.php - strlen($str)
+48.php - strrev($str)
+49.php - strreplace($w1,$w1,$str)
+50.php - strcmp($str1,$str2)
+51.php - strpos($str,$word)
+
+Code to demonstrate the following math functions:
+52.php - pi(),sqrt(num),round(num),rand(num),min(num1,num2,num3,etc),max(num1,num2,num3,etc)
+53.php - is_nan(var)
+54.php - is_infinite()
 
 [Shell]
 [Assignment 3]:
