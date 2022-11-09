@@ -302,3 +302,33 @@ These variables are initialised by the constructor for the class. The constructo
 20.php - Code to demonstrate do-while loop.
 21.php - Code to demonstrate for loop.
 22.php - Code to demonstrate foreach loop.
+
+[Shell]
+[Assignment 3]:
+1.sh - Print 'Haldia'.
+2.sh - Define a variable 'x' with value 15 and print it on the screen.
+3.sh - Print the sum of 2 numbers.
+4.sh - Print the sum of 2 numbers using 'expr' command.
+5.sh - Print the sum of two numbers using 'bc'.
+6.sh - Print the multiplication of two numbers using 'expr'.
+7.sh - Print the sum of two numbers using 'let' command.
+8.sh - Print the sum of three numbers.
+9.sh - Use decimal numbers in a shell script.
+10.sh - Define built-in shell variables.
+11.sh - Print you name. The name should be taken at runtime from the keyboard.
+[Assignment 4 - Programming using else, else if, switch, while loop]:
+12.sh - Find the greatest of 2 numbers using if statement.
+13.sh - Find the greatest of 3 numbers using while statement.
+14.sh - Concatenate 2 strings using if statement.
+15.sh - Compare 2 strings using if statement.
+16.sh - Find if a given number is even or odd, using if statement.
+17.sh - Find if a given number is a leap year or not, using if statement.
+18.sh - Take the marks obtained by a student in five subjects as input, through the keyword 'student', using the following tools:
+i.  60 division
+ii. 50-59 division
+iii.40-49 division
+using if statement.
+19.sh - Perform arithmetic operations using case statement.
+20.sh - Use case statement print Monday to Sunday.
+21.sh - List files, processes, users logged in, using case statement.
+    
