@@ -413,7 +413,7 @@ Code to demonstrate the following math functions:
 8.sh - Print the sum of three numbers.
 9.sh - Use decimal numbers in a shell script.
 10.sh - Define built-in shell variables.
-11.sh - Print you name. The name should be taken at runtime from the keyboard.
+11.sh - Print your name. The name should be taken at runtime from the keyboard.
 [Assignment 4 - Programming using else, else if, switch, while loop]:
 12.sh - Find the greatest of 2 numbers using if statement.
 13.sh - Find the greatest of 3 numbers using while statement.
@@ -429,4 +429,13 @@ using if statement.
 19.sh - Perform arithmetic operations using case statement.
 20.sh - Use case statement print Monday to Sunday.
 21.sh - List files, processes, users logged in, using case statement.
+22.sh - Find the factorial of a number.
+23.sh - Print 1-10 using while loop.
+24.sh - Print 1-10 using until loop.
+25.sh - Check whether a number is prime or not.
+26.sh - Generate Fibonacci series.
+27.sh - Check whether a number is an armstrong number or not.
+28.sh - Print the sum of n natural numbers.
+29.sh - Input a number from the user and find the reverse using for loop.
+30.sh - Input a number from the user and check it it is Palindrome or not.
     
