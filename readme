@@ -402,6 +402,8 @@ Code to demonstrate the following math functions:
 54.php - is_infinite()
 
 [Shell]
+[Assignment 1]: No programs.
+[Assignment 2]: No programs.
 [Assignment 3]:
 1.sh - Print 'Haldia'.
 2.sh - Define a variable 'x' with value 15 and print it on the screen.
@@ -414,7 +416,7 @@ Code to demonstrate the following math functions:
 9.sh - Use decimal numbers in a shell script.
 10.sh - Define built-in shell variables.
 11.sh - Print your name. The name should be taken at runtime from the keyboard.
-[Assignment 4 - Programming using else, else if, switch, while loop]:
+[Assignment 4]:
 12.sh - Find the greatest of 2 numbers using if statement.
 13.sh - Find the greatest of 3 numbers using while statement.
 14.sh - Concatenate 2 strings using if statement.
@@ -429,6 +431,7 @@ using if statement.
 19.sh - Perform arithmetic operations using case statement.
 20.sh - Use case statement print Monday to Sunday.
 21.sh - List files, processes, users logged in, using case statement.
+[Assignment 5]:
 22.sh - Find the factorial of a number.
 23.sh - Print 1-10 using while loop.
 24.sh - Print 1-10 using until loop.
@@ -438,4 +441,5 @@ using if statement.
 28.sh - Print the sum of n natural numbers.
 29.sh - Input a number from the user and find the reverse using for loop.
 30.sh - Input a number from the user and check it it is Palindrome or not.
+31.sh - Print the sum of 10 natural numbers.
     
