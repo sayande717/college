@@ -401,6 +401,20 @@ Code to demonstrate the following math functions:
 53.php - is_nan(var)
 54.php - is_infinite()
 
+55.php - Print the pattern:
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+56.php - Create an indexed array.
+57.php - Demonstrating the count() function.
+58.php - Create an indexed array, print it's elements.
+59.php - Create an associative array.
+60.php - Create a multidimensional (2D) array, print it's elements without using for loop.
+61.php - Create a multidimensional (2D) array, print it's elements using for loop.
+62.php - Use Super Global variables in PHP.
+
 [Shell]
 [Assignment 1]: No programs.
 [Assignment 2]: No programs.
@@ -442,4 +456,44 @@ using if statement.
 29.sh - Input a number from the user and find the reverse using for loop.
 30.sh - Input a number from the user and check it it is Palindrome or not.
 31.sh - Print the sum of 10 natural numbers.
-    
+32.sh - Print array elements from user input.
+33.sh - Sort the array in ascending order.
+34.sh - Sort the array in ascending order using Bubble Sort.
+35.sh - Calculate factorial of n, using functions.
+36.sh - Add 2 numbers in subscripts, pass them as argument.
+37.sh - Search an element in a 1-D array using functions. [error]
+38.sh - Print the following patterns:
+*
+**
+***
+****
+*****
+39.sh - 
+*****
+****
+***
+**
+*
+40.sh -
+    *
+   ***
+  *****
+ *******
+*********
+41.sh - 
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+42.sh - 
+        1
+      1 2 3
+    1 2 3 4 5
+  1 2 3 4 5 6 7
+1 2 3 4 5 6 7 8 9
+43.sh - 
+1
+2 2
+3 3 3
+4 4 4 4
