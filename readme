@@ -81,6 +81,9 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 (14) 51.c - Program to implement Djikstra's algorithm.
 (15) 52.c - Program to implement mColouring optimisation problem.
 
+[Semester 5 - Assignment 7]
+53.c - Create a child process using fork() function.
+
 --------------------------------------------------------------------------------------------
 
 [HTML]
@@ -286,6 +289,7 @@ These variables are initialised by the constructor for the class. The constructo
 5.php - Code on Assignment operators.
 6.php - Code on Comparison operators.
 7.php - Code on Logical operators.
+
 [Assignment 2]:
 8.php - Code to demonstrate string data type.
 9.php - Code to demonstrate integer data type.
@@ -298,13 +302,15 @@ These variables are initialised by the constructor for the class. The constructo
 16.php - Code to demonstrate if-else statement.
 17.php - Code to demonstrate if-esif-else statement.
 18.php - Code to demonstrate switch statement.
+
 [Assignment 3]:
 19.php - Code to demonstrate while loop.
 20.php - Code to demonstrate do-while loop.
 21.php - Code to demonstrate for loop.
 22.php - Code to demonstrate foreach loop.
-
 23.php - Code to take input from the user & print it.
+
+[Assignment 4]:
 24.php - Code to demonstrate break statement.
 25.php - Code to demonstrate continue statement.
 26.php - Code to print the sequence: 1  4  7  10
@@ -497,3 +503,4 @@ using if statement.
 2 2
 3 3 3
 4 4 4 4
+[Assignment 7] - 53.c - 
