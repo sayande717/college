@@ -88,19 +88,32 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 
 [HTML]
 
-1. Personal Profile - A personal profile page.
+1-Personal Profile - A personal profile page.
 a. index.html - The homepage.
 b. bgwallpaper.jpg - The background wallpaper.
 c. contactme.html - The 'Contact Me' page.
 d. self.jpg - A picture of myself.
 e. style.css.
 f. techrant.html - The 'Tech Rant' page.
-2. TicTacToe - An emulation of the TicTacToe game.
+2-TicTacToe - An emulation of the TicTacToe game.
 a. index.html - The main page.
 b. tic.css.
 c. tic.js.
-3. checkpass.html - Checks whether 2 entered passwords are the same.
-4. even.html - Checks whether the number entered is even.
+3.html Checks whether 2 entered passwords are the same.
+4.html - Checks whether the number entered is even.
+
+[Semester 6 - Assignment 1]
+5-Q1 - Design a HTML page that describes your profile in 1 paragraph. Design it in such a way that it has a heading, a horizontal rule, 3 links and your photo. Also, write 3 documents for the links.
+6-Q2 - Create 3 HTML files: intro.html, chapter1.html,chapter2.html. For each of the latter 2 files, create 2 sections, 1 & 2. Create a table of contents page with 5 hyperlinks that loads a different chapter or section in the browser when the hyperlinks are clicked. Clicking on introduction would load the file intro.html and clicking on chapter 1.1 would load the file Chapter1#Section 1, etc.
+7-Q3 - Using HTML, create a thumbnails page containing a series of 3 grpahics each 100x100pixels in size. They should be arranged long a diagonal line. Create a page containing 2 frames. The left frame contains the thumbnail page. When the thumbnail graphics are clicked, each should be displayed in the right frams as a large image along with some textual description.
+8.html - Using HTML draw 3 tables with border value 2. The first table will be a simple table. The second table will contain a column that spans upto 5 rows. The third table will contain a row that spans upto 3 columns. Create the last 2 tables using the table's ROWSPAN and COLSPAN properties.
+9.html - Using the FORM tag of HTML, create a registration form containing the below mentioned fields: 
+a. First Name (using text box)
+b. Last Name (using text box)
+c. E-Mail ID (using text box)
+d. Gender (using radio button)
+e. Hobbies (using check boxes)
+f. Submit & Reset button
 
 ------------------------------------------------------------------------------------
 
@@ -503,4 +516,13 @@ using if statement.
 2 2
 3 3 3
 4 4 4 4
-[Assignment 7] - 53.c - 
+
+> [SQL] 
+[Semester 6]
+[Assignment 1] - 
+1.txt - Database / Table creation and manipulation:
+>> Create a new table.
+>> Display the schema of the table.
+>> Insert values into the table.
+>> Delete rows from the table.
+>> Delete the entire table.

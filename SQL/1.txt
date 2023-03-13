@@ -1,0 +1,33 @@
+Notes:
+1. Commands are not case sensitive.
+
+
+> Create a student database.
+$ CREATE TABLE STUDENT(NAME VARCHAR2(20),ROLL NUMBER(3),DOB DATE,SEMESTER NUMBER(1),HEIGHT NUMBER(6,2));
+> Display the schema of the table Student.
+$ DESC STUDENT
+
+> Display the schema of the student database.
+$ DESC STUDENT; // Displays the structure of the table, with all the variables & their data types.
+
+> Populate the database.
+$ INSERT INTO STUDENT VALUES(&NAME,&ROLL,&DOB,&SEMESTER,&HEIGHT);
+
+Enter value for name: 'Sayan'
+Enter value for roll: 00
+Enter value for dob: TO_DATE('01/01/2001','DD/MM/YYYY') // TO_DATE(value, format)
+Enter value for semester: 6
+Enter value for height: 5.6
+
+1 row created.
+
+> Do some selections (and display the table)
+$ SELECT * FROM STUDENT // Display the full table
+$ SELECT NAME,ROLL FROM STUDENT WHERE HEIGHT=5.6;
+
+> Delete all rows from table student
+$ DELETE FROM STUDENT
+
+> Delete / drop the table student
+$ DROP TABLE STUDENT
+
