@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script type="text/javascript">
+        function add(n1,n2) {
+            alert(parseInt(n1) + parseInt(n2))
+        }
+
+        function sub(n1,n2) {
+            alert(parseInt(n1) - parseInt(n2))
+        }
+
+        function mul(n1,n2) {
+            alert(parseInt(n1) * parseInt(n2))
+        }
+
+        function div(n1,n2) {
+            alert(parseInt(n1) / parseInt(n2))
+        }
+
+    </script>
+</head>
+<body>
+    <div style="font-size: 30px;">Calculator</div>
+    <form action="" method="post">
+        <input type="number" id="n1" placeholder="Enter number 1">
+        <input type="number" id="n2" placeholder="Enter number 2">
+        <br>
+        <button type="button" onclick="add(n1.value,n2.value)">+</button>
+        <button type="button" onclick="sub(n1.value,n2.value)">-</button>
+        <button type="button" onclick="mul(n1.value,n2.value)">*</button>
+        <button type="button" onclick="div(n1.value,n2.value)">/</button>
+        <div id="outResult"></div>
+    </form>
+</body>
+</html>

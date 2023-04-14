@@ -1,3 +1,4 @@
+
 Program Description -
 [C] -
 1.c - Prints all 3 digit Armstrong numbers.
@@ -115,6 +116,24 @@ d. Gender (using radio button)
 e. Hobbies (using check boxes)
 f. Submit & Reset button
 
+[Semester 6 - Assignment 2]
+10.html-Q1 - Take marks obtained by student as input from the user. Depending on the marks print the grade of the student. If marks is <10 or >100, show an alert "Invalid Entry!".
+11.html-Q2 - In your browser, there will be a textbox to enter your name. There will be a submit button. If the name field is empty, then on submit this will give an alert that the name field is empty. If the name is more than 10 characters long, it will give an alert to enter your name properly. Else it will display your name in capital, Times font, 20 size, bold and in red color.
+12.html-Q3 - In your browser, there will be 3 fields Name, Age and E-mail ID. The name must not be greater than 10 characters, age must a value between 5 to 100, and E-mail must contain '@' and '.com', otherwise it will generate an error message at the time of submitting the data. If all the data is correct, it will give an alert with 'Thank You'.
+13.html-Q4 - Display a clock on your webpage.
+14.html-Q5 - Using HTML and JavaScript, create a page that contains a simple calculator.
+
+[Semester 6 - Assignment 3]
+
+15-Q1 - Using CSS modify your personal information web page by including following features:
+> Yellow background you’re Name in the table-inserted top.
+> Make the background of the present address data field of the table sky-blue.
+> Same for permanent address field.
+> Use your photo with border where border style is dashed, border width is 2 pixel and border color is blue.
+> Define some font style, color, size at the beginning of the style sheet. And use them when necessary.
+> Declare Contextual Selector for border 5px ridge red and use it where necessary.
+> Apply Absolute positioning, relative positioning where necessary.
+[PENDING]
 ------------------------------------------------------------------------------------
 
 [Java]
@@ -526,3 +545,6 @@ using if statement.
 >> Insert values into the table.
 >> Delete rows from the table.
 >> Delete the entire table.
+
+
+[JavaScript]

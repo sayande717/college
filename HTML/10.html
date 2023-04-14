@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks</title>
+</head>
+<body>
+    <script type="text/javascript">
+        const marks = prompt('Enter your marks')
+        if (marks < 10 || marks > 100) {
+            alert('Invalid marks!')
+        }
+
+        else {
+            if (marks >= 60) {
+                alert('1st division')
+            }
+            else if (marks >= 40) {
+                alert('2nd division')
+            }
+            else {
+                alert('3rd division')
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name</title>
+    <style>
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <form method="post">
+        <input id="name" type="text" placeholder="Enter your name">
+        <br>
+        <button type="submit" onclick="onSubmit()">Submit</button>
+    </form>
+
+    <script type="text/javascript">
+        function onSubmit() {
+            const name = document.getElementById('name').value
+            if(name.length == 0) {
+                alert('Name field cannot be empty.')
+            }
+
+            else if(name.length > 10) {
+                alert('Enter name properly.')
+            }
+            else {
+                document.write('Name: <h1>'+name.toUpperCase()+'</h1>')
+            }
+        }
+    </script>
+    
+</body>
+</html>
