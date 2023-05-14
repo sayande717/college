@@ -1,0 +1,29 @@
+#div {
+    border: 1px solid black;
+}
+
+#div1 {
+    position: absolute;
+    width: 800px;
+    height: 400px;
+}
+
+#div2 {
+    font-style: italic;
+    color: green;
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    right: 0px;
+    width: 200px;
+}
+
+p {
+    border: 5px ridge red;
+}
+
+#img2 {
+    border: 5px ridge blueviolet;
+    width: 200px;
+    height: 200px;
+}

@@ -1,4 +1,3 @@
-
 Program Description -
 [C] -
 1.c - Prints all 3 digit Armstrong numbers.
@@ -104,6 +103,7 @@ c. tic.js.
 4.html - Checks whether the number entered is even.
 
 [Semester 6 - Assignment 1]
+[PENDING-REFACTOR, delete folders]
 5-Q1 - Design a HTML page that describes your profile in 1 paragraph. Design it in such a way that it has a heading, a horizontal rule, 3 links and your photo. Also, write 3 documents for the links.
 6-Q2 - Create 3 HTML files: intro.html, chapter1.html,chapter2.html. For each of the latter 2 files, create 2 sections, 1 & 2. Create a table of contents page with 5 hyperlinks that loads a different chapter or section in the browser when the hyperlinks are clicked. Clicking on introduction would load the file intro.html and clicking on chapter 1.1 would load the file Chapter1#Section 1, etc.
 7-Q3 - Using HTML, create a thumbnails page containing a series of 3 grpahics each 100x100pixels in size. They should be arranged long a diagonal line. Create a page containing 2 frames. The left frame contains the thumbnail page. When the thumbnail graphics are clicked, each should be displayed in the right frams as a large image along with some textual description.
@@ -124,7 +124,6 @@ f. Submit & Reset button
 14.html-Q5 - Using HTML and JavaScript, create a page that contains a simple calculator.
 
 [Semester 6 - Assignment 3]
-
 15-Q1 - Using CSS modify your personal information web page by including following features:
 > Yellow background you’re Name in the table-inserted top.
 > Make the background of the present address data field of the table sky-blue.
@@ -133,7 +132,11 @@ f. Submit & Reset button
 > Define some font style, color, size at the beginning of the style sheet. And use them when necessary.
 > Declare Contextual Selector for border 5px ridge red and use it where necessary.
 > Apply Absolute positioning, relative positioning where necessary.
-[PENDING]
+
+[Semester 6 - Assignment 4] - [Java/JSP]
+[Semester 6 - Assignment 5] - [Java/Servlet]
+
+
 ------------------------------------------------------------------------------------
 
 [Java]
@@ -221,6 +224,42 @@ These variables are initialised by the constructor for the class. The constructo
 (2) 64.java - Interface LuminousObject declares lightOff() and lightOn() methods. Class SolidObject is extended by Cone and Cube and implements LuminousObject. Class LuminousCone extends Cone and implements LuminousObject. Class LuminousCube extends Cube and implements LuminousObject. Instantiate the LuminousCone and LuminousCube classes. Use interface reference to those objects. Invoke the methods of LuminousObject interface via the interface reference.
 (3) 65.java - Interface JointEntrance declares seatExam() and getAdmission() methods.Class ScienceGroup, which implements JointEntrance, is extended by class Medical and Engineering. Class PureScience extends Engineering and implements JointEntrance. Instantiate the BioScience and PureScience classes. Use interface reference to refer to those objects. Invoke the methods of the JointEntrance interface through the interface reference.
 (4) 66.java - Write a program where four types of exception ie Arithmetic exception, ArrayIndexOutOfBounds, StringOutOfBounds, Null pointer using different catch block to handle that exception and ensure that the program is not terminated using final block concept.
+
+
+[Java/Servlet]
+[Theory]
+1.java, 1.html - Add 2 numbers, print the sum.
+2.java, 2.html - Demonstating GET method & Request Dispatcher.
+3.java, 3.html - Demonstrating POST method.
+4.java, 4.html - Demonstrating Send Redirect.
+5.1.java, 5.2.java, 5.html - HTTP Session Demonstration.
+6.1.java, 6.2.java, 6.html - HTTP Cookie Demonstration.
+
+[Semester 6 - Assignment 5]
+7-Q1 - Write a program to display 'Hello, World!' on the screen.
+8-Q2 - Write a program to create an employee registration form and display all the entered information on the screen (HTML > Servlet).
+
+[Java/JSP]
+1.jsp, 1.html - Tags in JSP.
+2.jsp - Basic syntax of JSP.
+3.jsp - Declaring a variable & printing it's value.
+4.1.jsp, 4.2.jsp - Print the system date & time, and include a JSP file within another file.
+
+[Semester 6 - Assignment 4]
+5.html, 5.jsp-Q1 - Write a program to evaluate the factorial of a number.
+> Design an HTML page where the user types the number n and clicks the button 'Find Factorial'.
+> The client (browser) validetes the data 'n'.
+> The client sends a request to the server. The request takes n to the server and asks for the factorial of n.
+> The server receives the number 'n', evaluates the factorial of n and sends the result to the browser.
+6.html, 6.jsp-Q2 - Write a program to find a phone number.
+> Design an HTML page where the user types the name of a person and clicks the button "Find Number".
+> The client sends a request to the server. The request takes the name of the person to the server and asks for the phone number of the person, from the server.
+> The server receives the name of the person, finds the phone number and sends the result to the browser.
+7.html, 7.jsp-Q3 - Write a pgoram to check username & password.
+> Design an HTML page where the user types in his username & password.
+> The client (browser) validates the username & password.
+> The client sends a request to the server.
+> The server receives the username & password, checks it with somepredefined username & password and sends the result to the browser.
 
 > Python/Lab Assignments - 
 
