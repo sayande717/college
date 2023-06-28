@@ -1,0 +1,21 @@
+Header files:
+
+#include<sys/types.h>
+#include<sys/ipc.h>
+#include<sys/msg.h>
+
+Syntax:
+int msgsnd(int msgid, cons void *msgp, size_t msgsz, int msgflg);
+
+Description:
+The msgsnd() and msgrcv() system calls are used, respectively, to send messages to, and recieve messages from, a message queue. The calling process much have write permission on the message queue in order to send a message, and read permission in order to recieve a message.
+The msgp argument is a pointer to caller defined structure of the following general form:
+
+struct msgbuf {
+    long mtype; // Message type must be >0.
+    char mtext[1]; // Message data
+};
+
+The mtext field is an array (or other structure), a non-negative integer value. Messages of zero length (i.e. no mtext field) have strictly positive integer values (see the description o msgrcv() below). If sufficient space is available in the queue, msgsnd() succeeds immediately.
+
+RETURN value: On failure, both functions return -1 as error, indicating an error, otherwise msgsnd() returns 0 and msgrcv() returns the number of bytes actuall copied into the mtext array.

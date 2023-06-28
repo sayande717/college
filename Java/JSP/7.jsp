@@ -7,7 +7,7 @@
     <title></title>
 </head>
 <body>
-    <%@ page import="java.util.*">
+    <%@ page import="java.util.Arrays">
     <%
         String user = request.getParameter("user").value.toString();
         String pwd = request.getParameter("pwd").value.toString();

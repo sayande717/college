@@ -23,7 +23,7 @@ Enter value for height: 5.6
 
 > Do some selections (and display the table)
 $ SELECT * FROM STUDENT // Display the full table
-$ SELECT NAME,ROLL FROM STUDENT WHERE HEIGHT=5.6;
+$ SELECT NAME, ROLL FROM STUDENT WHERE HEIGHT=5.6;
 
 > Delete all rows from table student
 $ DELETE FROM STUDENT

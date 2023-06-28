@@ -7,6 +7,7 @@
     <title></title>
 </head>
 <body>
+    <%@ page import="java.util.Arrays">
     <%
         String name = request.getParameter("name").value.toString();
         String[] names = {"Ram",
@@ -21,5 +22,6 @@
         int index = Arrays.binarySearch(names, name);
         out.println("Phone number: "+numbers[index]);
     %>
+    <%@ page import java.util.Arrays %>
 </body>
 </html>

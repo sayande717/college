@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/AddServlet")
 public class AddServlet extends HttpServlet {
-    public void service(HttpServletRequest req, HttpServletResponse res) throws IOException {
+    public void service(HttpServletRequest req, HttpServletResponse res) throws IOException,ServletException {
 
         int i = Integer.parseInt(req.getParameter("n1"));
         int j = Integer.parseInt(req.getParameter("n2"));
@@ -17,6 +17,5 @@ public class AddServlet extends HttpServlet {
 
         PrintWriter out = res.getWriter();
         out.println("Result is " + k);
-
     }
 }

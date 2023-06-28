@@ -10,8 +10,7 @@
 <body>
 
     <h1>Welcome</h1>
-
-    <%!int a=15; %>
+    <%! int a=15; %>
 
 
         The value is: <%= a %>

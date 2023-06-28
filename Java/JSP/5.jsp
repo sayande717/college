@@ -9,13 +9,14 @@
 <body>
     <%
         int n = Integer.parseInt(request.getParameter("input"));
-        long out = 1;
+        long output = 1;
         int i = 2;
         while(i <= n) {
             f = f * i;
             i++;
         }
-        out.println("<h3>Factorial of "+n+": "+out);
+        
+        out.println("<h3>Factorial of "+n+": "+output);
     %>
 </body>
 </html>

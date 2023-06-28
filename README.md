@@ -23,48 +23,46 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 31.c - Program to create and display a circular linked list.
 
 > C/Lab Assignments - 
-
-[Semester 3]
-[Assignment 1] - 
+[Semester 3 - Assignment 1] - 
 (1) 18.c - Insert an element at a given location in an array.
 (2) 19.c - Delete an element from a given location in an array.
 
-[Assignment 2] - 
+[Semester 3 - Assignment 2] - 
 (1) 23.c - Write a program in C to search an element in an array using Linear search algorithm.
 (2) 24.c - Write a program in C to search an element in an array using Binary search algorithm.
 
-[Assignment 3] - 
+[Semester 3 - Assignment 3] - 
 (1) 20.c - Program to implement Stack using arrays.
 (2) 21.c - Program to implement Stack using structures.
 
-[Assignment 4] - 
+[Semester 3 - Assignment 4] - 
 (1) 25.c - Write a program in C to perform queue implementation using array.
 (2) 26.c - Write a program in C to perform queue implementation using structure.
 (3) 22.c - Write a program in C to perform circular queue implementation using array.
 
-[Assignment 5] - 
+[Semester 3 - Assignment 5] - 
 (1) 28.c - Program to create and display a single list list.
 (2) 29.c - Program to create a linked list & insert data items to it, at first, last or any position.
 
-[Assignment 6] - 
+[Semester 3 - Assignment 6] - 
 (1) 30.c - Program to reverse a linked list.
 
-[Assignment 7] - 
+[Semester 3 - Assignment 7] - 
 (1) 32.c - Program to demonstrate bubble sort on an integer array.
 (2) 33.c - Program to demonstrate selection sort on an integer array.
 (3) 34.c - Program to demonstrate insertion sort on an integer array.
 
-[Assignment 8] - 
+[Semester 3 - Assignment 8] - 
 (1) 35.c - Program to demonstrate merge sort on an integer array.
 
-[Assignment 9] - 
+[Semester 3 - Assignment 9] - 
 (1) 36.c - Program to demonstrate quick sort on an integer array.
 (2) 37.c - Program to demonstrate heap sort on an integer array.
 
-[Assignment 10] - 
+[Semester 3 - Assignment 10] - 
 (1) 27.c - Write a program to perform create, inorder, preorder and postorder operations on a Binary Search Tree.
 
-[Semester 4]
+[Semester 4 - Assignment *] - 
 (1) 38.c - Implement Binary search using Divide & Conquer technique.
 (2) 39.c - Implement Binary search using Divide & Conquer method.
 (3) 40.c - Fractional Knapsack problem.
@@ -81,8 +79,57 @@ Note - A number is a prime number if it is only divisible by 1 & itself.
 (14) 51.c - Program to implement Djikstra's algorithm.
 (15) 52.c - Program to implement mColouring optimisation problem.
 
-[Semester 5 - Assignment 7]
+[Semester 5 - Assignment 7] - 
 53.c - Create a child process using fork() function.
+
+[Semester 6 - Assignment 1] - 
+53.txt - Message queue creation
+53.1.c - Create a message queue with message get (msgget()) function & IPC_CREAT. Also show the perror function that generates an error when the message queue creation fails.
+53.2.c - IPC queue creation with file permissions.
+53.3.c - IPC message queue creation with flag IPC_CREAT and IPC_EXCEL.
+
+[Semester 6 - Assignment 2] - 
+54.txt - Sending & Receiving messages.
+54.1-2.c - Write a program to send a text message from a terminal to another terminal via IPC message queue. Hint: Create a message queue using msgget() function, send & receive using msgsnd(), msgrcv().
+54.1.c - Receive message
+54.2.c - Send message
+
+[Semester 6 - Assignment 3] - 
+55.1-2.c - Write a program to send foud successive messages from the sender. The reciver will accept those messages and print them after another as an output string. Receiver will not reply for those messages.
+55.1.c - Sender
+55.2.c - Receiver
+
+[Semester 6 - Assignment 4] - 
+56.1.c - Creation of a one-way pipe in a single process.
+56.2.c - Creation of a one-way pipe in two processes.
+56.3.c - Creation of a two way pipe between two processes.
+56.4.c - Write a program to create a 2 way pipe between 2 processes, and check if it is an armstrong number or not.
+
+[Semester 6 - Assignment 5] - 
+57.1-2.c - Write a program for IPC through FIFO between client and server and find the vowels and consonants from an input sentence and display total number of vowels and consonants in the sentence.
+57.1.c - Client
+57.2.c - Server
+
+[Semester 6 - Assignment 6 ] - null
+[Semester 6 - Assignment 7] - 
+58.1-2.c - Write a program to design Berkeley sockets for interprocess communication between client and server across the network.
+58.1.c - Client
+58.2.c - Server
+
+[Semester 6 - Assignment 8] -
+59.1-2.c - Design a TCP iterative client and server application to reverse the given input sentence.
+59.1.c - Client
+59.2.c - Server
+
+[Semester 6 - Assignment 9] - 
+60.1-2.c - Write a program to implement stop and wait protocol in data link layer.
+60.1.c - Stop Wait Receiver
+60.2.c - Stop Wait Sender
+
+[Semester 6 - Assignment 10] - 
+61.1-2.c - Write a program to implement Go Back N Protocol in the data link layer.
+61.1.c - Go Back N Receiver
+61.2.c - Go Back N Sender
 
 --------------------------------------------------------------------------------------------
 
@@ -103,7 +150,6 @@ c. tic.js.
 4.html - Checks whether the number entered is even.
 
 [Semester 6 - Assignment 1]
-[PENDING-REFACTOR, delete folders]
 5-Q1 - Design a HTML page that describes your profile in 1 paragraph. Design it in such a way that it has a heading, a horizontal rule, 3 links and your photo. Also, write 3 documents for the links.
 6-Q2 - Create 3 HTML files: intro.html, chapter1.html,chapter2.html. For each of the latter 2 files, create 2 sections, 1 & 2. Create a table of contents page with 5 hyperlinks that loads a different chapter or section in the browser when the hyperlinks are clicked. Clicking on introduction would load the file intro.html and clicking on chapter 1.1 would load the file Chapter1#Section 1, etc.
 7-Q3 - Using HTML, create a thumbnails page containing a series of 3 grpahics each 100x100pixels in size. They should be arranged long a diagonal line. Create a page containing 2 frames. The left frame contains the thumbnail page. When the thumbnail graphics are clicked, each should be displayed in the right frams as a large image along with some textual description.
@@ -234,6 +280,9 @@ These variables are initialised by the constructor for the class. The constructo
 4.java, 4.html - Demonstrating Send Redirect.
 5.1.java, 5.2.java, 5.html - HTTP Session Demonstration.
 6.1.java, 6.2.java, 6.html - HTTP Cookie Demonstration.
+9.java - Login
+10.java - Logout
+11.java - LoginDAO
 
 [Semester 6 - Assignment 5]
 7-Q1 - Write a program to display 'Hello, World!' on the screen.
@@ -244,6 +293,11 @@ These variables are initialised by the constructor for the class. The constructo
 2.jsp - Basic syntax of JSP.
 3.jsp - Declaring a variable & printing it's value.
 4.1.jsp, 4.2.jsp - Print the system date & time, and include a JSP file within another file.
+8.jsp - Welcome page.
+9.jsp - Login page
+10.jsp - Display a video on the webpage.
+11.jsp - Login using JDBC
+12.jsp,12.html - Insert data into Database table.
 
 [Semester 6 - Assignment 4]
 5.html, 5.jsp-Q1 - Write a program to evaluate the factorial of a number.

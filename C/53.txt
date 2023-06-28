@@ -1,0 +1,17 @@
+Message queue creation
+
+A message queue is used for passing small amount of information between processes in a structured manner A message queue is a linked list of messages stored within the kernel and identified by a message queue identifier. A new queue is created or an existing queue opened by msgget().
+
+Sending process -> Message Passing queue
+Message Passing queue -> Receiving process
+
+msgget() - This function is used to create a message queue and will get a message queue identifier.
+
+> Header file required for msgget(): #include<sys/msg.h>
+> Syntax: int msgget(key_t key, int msgflg);
+The msgget() function returns the message queue identifier associated with the argument key.
+IPC_CREAT: It is used to create a message queue. Similarly, there are IPC_PRIVATE & IPC_EXCEL.
+
+If msgflg specifies both IPC_CREAT & IPC_EXCEL and a message queue already exists for a particular queue, then the msgget() function fails with 'error number set2 exists', which means that the message queue is not created when the key is present.
+Queue always returns integer value i.e. ID number of the queue. When the output is negative, it means that the queue is not created.
+Perror: It explains the error code.
